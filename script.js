@@ -1,4 +1,4 @@
-// === 1. Données (questions, profils, etc.) : À reprendre tel quel ===
+// === 1. Données (questions, profils, etc.) ===
 const questions = [
   // Q1
   {
@@ -93,7 +93,6 @@ const questions = [
     ]
   }
 ];
-
 
 const profils = [
   // 0-3 points
@@ -272,6 +271,7 @@ function showSection(sectionId) {
 
 // === 4. Affichage de l'intro ===
 function showIntro() {
+  document.getElementById('progress-bar').style.display = "";
   showSection('intro-section');
   updateProgressBar(0, questions.length);
   const introSection = document.getElementById('intro-section');
@@ -298,6 +298,7 @@ function updateProgressBar(index, total, isResult = false) {
 // === 6. Affichage d'une question ===
 function renderQuestion(index) {
   window.scrollTo({top: 0, behavior: 'smooth'});
+  document.getElementById('progress-bar').style.display = "";
   showSection('quiz-section');
   updateProgressBar(index, questions.length);
 
@@ -401,8 +402,11 @@ function renderQuestion(index) {
 // === 7. Affichage du résultat ===
 function showResult() {
   window.scrollTo({top: 0, behavior: 'smooth'});
+
+  // Masquer la barre de progression sur la page résultat
+  document.getElementById('progress-bar').style.display = "none";
+
   showSection('result-section');
-  updateProgressBar(questions.length, questions.length, true);
 
   const resultSection = document.getElementById('result-section');
   resultSection.innerHTML = '';
@@ -413,7 +417,7 @@ function showResult() {
     return acc + (answerObj.value !== undefined ? answerObj.value : 0);
   }, 0);
 
-  // Attribution du profil
+  // Attribution du profil selon la plage de points
   let profil = profils.find(p => {
     if (p.title === "Le suiveur passif") return score >= 0 && score <= 3;
     if (p.title === "L'adepte pragmatique") return score >= 4 && score <= 6;
@@ -422,8 +426,9 @@ function showResult() {
     if (p.title === "L'innovateur autonome") return score >= 14 && score <= 16;
   });
 
-  // Calcul du pourcentage
-  const percentScore = Math.round((score / questions.length) * 100);
+  // Calcul du pourcentage sur 16
+  const maxScore = 16;
+  const percentScore = Math.round((score / maxScore) * 100);
 
   // Score mis en valeur en haut
   const scoreDiv = document.createElement('div');
@@ -432,7 +437,7 @@ function showResult() {
   scoreDiv.style.fontWeight = "900";
   scoreDiv.style.color = profil.border;
   scoreDiv.style.marginBottom = "18px";
-  scoreDiv.textContent = `${percentScore}%`;
+  scoreDiv.textContent = `${percentScore} % de maturité à l'IA`;
   resultSection.appendChild(scoreDiv);
 
   // Bloc explication du profil

@@ -95,7 +95,7 @@ const questions = [
 ];
 
 
-Const profils = [
+const profils = [
   // 0-3 points
   {
     title: "Le suiveur passif",
@@ -414,10 +414,13 @@ function showResult() {
   }, 0);
 
   // Attribution du profil
-  let profil;
-  if (score >= 5) profil = profils[2];
-  else if (score >= 3) profil = profils[1];
-  else profil = profils[0];
+  let profil = profils.find(p => {
+    if (p.title === "Le suiveur passif") return score >= 0 && score <= 3;
+    if (p.title === "L'adepte pragmatique") return score >= 4 && score <= 6;
+    if (p.title === "Le curateur engagé") return score >= 7 && score <= 10;
+    if (p.title === "Le penseur critique") return score >= 11 && score <= 13;
+    if (p.title === "L'innovateur autonome") return score >= 14 && score <= 16;
+  });
 
   // Calcul du pourcentage
   const percentScore = Math.round((score / questions.length) * 100);

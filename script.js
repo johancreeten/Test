@@ -97,7 +97,7 @@ const questions = [
 const profils = [
   // 0-3 points
   {
-        title: "Le consommateur passif",
+    title: "Le consommateur passif",
     color: "#ffeaea",
     border: "#c62828",
     explanation: `
@@ -157,35 +157,64 @@ const profils = [
   },
   // 4-6 points
   {
-    title: "L'adepte pragmatique",
-    color: "#fffbe7",
-    border: "#dba800",
-    explanation: `
-      <div style="font-size:2.6em; font-weight:800; margin-bottom:34px; color:#dba800; text-align:center; text-transform:none;">
-        L'adepte pragmatique
+    title: "L’adepte pragmatique",
+  color: "#fffbe7",
+  border: "#dba800",
+  explanation: `
+    <div style="font-size:2.6em; font-weight:800; margin-bottom:34px; color:#dba800; text-align:center; text-transform:none;">
+      L’adepte pragmatique
+    </div>
+    <div style="font-size:1.16em; margin-bottom:42px; text-align:justify; line-height:1.66;">
+      <b>Description :</b><br>
+      Vous êtes un utilisateur intermédiaire sur l'échelle de maturité de l'IA. Vous êtes avant tout axé sur l'efficacité et la productivité. Votre mantra ? Simplifier les tâches. Vous êtes un adepte des raccourcis intelligents ! Vous avez parfaitement compris l'utilité de l'IA pour automatiser des processus qui, avouons-le, étaient un peu barbants, comme la récupération et la structuration des données.<br><br>
+      Grâce à l'IA, vous gagnez un temps précieux et allégez votre charge mentale, ce qui, bien sûr, vous pousse à l'utiliser encore et encore. C'est un peu comme avoir un assistant personnel qui trie vos chaussettes par couleur, mais pour vos données ! Si vous vous sentez en partie propriétaire de votre travail, ce sentiment reste modéré. Vous effectuez une certaine vérification des contenus générés, mais soyons honnêtes, elle reste parfois superficielle, car la rapidité est souvent votre priorité numéro un. Pour vous, l'IA est un assistant précieux qui simplifie la complexité, mais n'oubliez pas que cette facilité peut parfois vous détourner d'une compréhension vraiment profonde et d'un engagement cognitif complet avec le matériel. Un bon compromis, mais sans aller jusqu'au grand amour intellectuel !
+    </div>
+    <div class="bloc-orange">
+      <div style="font-size:1.13em; font-weight:700; color:#d27d18; margin-bottom:18px;">
+        ⚠️ Points d’attention
       </div>
-      <div style="font-size:1.16em; margin-bottom:42px; text-align:justify; line-height:1.66;">
-        <b>Description :</b><br>
-        L'utilisateur de ce profil est principalement orienté vers l'efficacité et la productivité. Il utilise l'IA pour faciliter les tâches et réduire l'effort cognitif, notamment pour la collecte ou l'organisation d'informations. Bien qu'il reconnaisse le rôle de l'IA, il peut avoir une appropriation modérée de son travail et une vérification superficielle des contenus générés. Les sources suggèrent que la confiance élevée dans l'IA peut réduire l'effort perçu pour la pensée critique.
+      <ul>
+        <li>
+          <b>Le piège de la "rapidité superficielle" :</b> Vous êtes un virtuose de l'efficacité, et l'IA est votre baguette magique pour tout automatiser. Mais à trop vouloir aller vite, votre processus de vérification risque de ne plus être qu'une formalité. Vous survolez, vous scannez, et vous passez à la suite. Si l'IA a fait une erreur subtile ou a omis un détail crucial, vous pourriez le manquer, car votre priorité est la livraison rapide, pas la fouille archéologique de l'information.
+        </li>
+        <li>
+          <b>La "compréhension profonde" prend des vacances à Hawaï :</b> L'IA est géniale pour récupérer et structurer des données, vous faisant gagner un temps fou. Le revers de la médaille est que cette facilité peut vous empêcher de vous immerger pleinement dans les sujets. Si l'IA vous pré-mâche tout, vous risquez de ne pas développer cette compréhension nuancée qui vient de la mastication et de la digestion personnelle des informations. Vous savez "comment" ça marche, mais pas toujours "pourquoi" en profondeur.
+        </li>
+        <li>
+          <b>Le sentiment de "propriété à mi-temps" :</b> Vous vous sentez "en partie" propriétaire de votre travail, ce qui est déjà un bon début. Mais cette propriété modérée peut vous priver de la pleine satisfaction et de la fierté qui accompagnent la création entièrement originale. C'est un peu comme dire "j'ai aidé à élever le jardin" alors que c'est le voisin qui a planté toutes les graines.
+        </li>
+        <li>
+          <b>La "bulle de filtre" version IA :</b> En vous appuyant sur l'IA pour la récupération et la structuration des données, vous pourriez, sans le vouloir, vous enfermer dans les biais et les perspectives qui sont inhérents aux données d'entraînement de l'IA. Si l'IA a une "opinion" implicite sur un sujet, vous pourriez l'adopter sans même vous en rendre compte, à force de faire confiance à sa structuration.
+        </li>
+        <li>
+          <b>L'optimisation, oui, l'exploration, bof :</b> Votre mantra est d'optimiser et de simplifier les tâches répétitives. C'est excellent pour la productivité. Mais cela peut aussi réduire votre tendance naturelle à l'exploration créative, à la prise de risque intellectuelle ou à la recherche d'idées "hors des sentiers battus" que l'IA ne générerait pas forcément. Vous devenez un expert du "bon chemin", mais peut-être moins des "chemins inattendus".
+        </li>
+      </ul>
+    </div>
+    <div style="background: #f7fbf6; border: 1.5px solid #d0eadc; border-radius: 11px; padding: 26px 19px 20px 19px; margin-top:44px; margin-bottom:39px;">
+      <div style="font-size:1.13em; font-weight:700; color:#388e3c; margin-bottom:18px;">
+        🧠 Pistes d’amélioration
       </div>
-      <div class="bloc-orange">
-        <div style="font-size:1.13em; font-weight:700; color:#d27d18; margin-bottom:18px;">
-          ⚠️ Points d'attention
-        </div>
-        <ul>
-          <li>à remplir</li>
-        </ul>
-      </div>
-      <div style="background: #f7fbf6; border: 1.5px solid #d0eadc; border-radius: 11px; padding: 26px 19px 20px 19px; margin-top:44px; margin-bottom:39px;">
-        <div style="font-size:1.13em; font-weight:700; color:#388e3c; margin-bottom:18px;">
-          💡 Pistes d'améliorations
-        </div>
-        <ul>
-          <li>à remplir</li>
-        </ul>
-      </div>
-    `
-  },
+      <ul>
+        <li>
+          <b>Le "zoom sur le détail" :</b> De temps en temps, choisissez un petit segment du contenu généré par l'IA et faites une vérification approfondie, comme si votre vie en dépendait. Questionnez les sources, explorez les nuances. Cela affûtera votre œil pour les erreurs et les omissions, même en mode "turbo". C'est comme faire un contrôle technique complet de votre bolide, même s'il roule parfaitement.
+        </li>
+        <li>
+          <b>"Pourquoi ça marche ?" - L'approche de l'ingénieur :</b> Lorsque l'IA vous simplifie un problème complexe, prenez quelques minutes pour comprendre la logique sous-jacente à sa solution. Pourquoi l'IA a-t-elle choisi cette structure ou ces catégories ? Ne vous contentez pas du résultat, décortiquez le processus. Votre cerveau vous remerciera pour cette gymnastique intellectuelle.
+        </li>
+        <li>
+          <b>Célébrez vos "interventions héroïques" :</b> Identifiez et valorisez chaque fois que vous modifiez, améliorez ou personnalisez la production de l'IA. Ces moments sont la preuve de votre valeur ajoutée. Mettez en avant ce qui est "votre" apport, même petit, et laissez la fierté monter ! C'est comme mettre votre nom sur le tableau quand vous avez contribué au chef-d'œuvre collectif.
+        </li>
+        <li>
+          <b>Des "escapades sans filet" occasionnelles :</b> Pour des tâches qui ne nécessitent pas une rapidité extrême, essayez de commencer le processus de zéro sans l'IA. Faites le travail "à l'ancienne" au moins une fois, puis comparez avec ce que l'IA aurait fait. Vous pourriez être surpris par votre propre ingéniosité. C'est comme faire de la randonnée sans carte ni boussole, juste pour le plaisir de l'aventure.
+        </li>
+        <li>
+          <b>La "chasse aux biais invisibles" :</b> Soyez consciemment à l'affût des biais potentiels dans les réponses de l'IA, surtout sur des sujets sensibles. Si une information semble trop "propre" ou trop "conformiste", cherchez activement des points de vue opposés pour enrichir votre perspective. C'est comme ne pas toujours croire la première rumeur de bureau, mais chercher des preuves auprès de différentes sources.
+        </li>
+      </ul>
+    </div>
+  `
+},
   // 7-10 points
   {
     title: "Le curateur engagé",

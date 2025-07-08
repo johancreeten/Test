@@ -97,31 +97,60 @@ const questions = [
 const profils = [
   // 0-3 points
   {
-    title: "Le suiveur passif",
+        title: "Le consommateur passif",
     color: "#ffeaea",
     border: "#c62828",
     explanation: `
       <div style="font-size:2.6em; font-weight:800; margin-bottom:34px; color:#c62828; text-align:center; text-transform:none;">
-        Le suiveur passif
+        Le consommateur passif
       </div>
       <div style="font-size:1.16em; margin-bottom:42px; text-align:justify; line-height:1.66;">
         <b>Description :</b><br>
-        Ce profil se caractérise par une forte dépendance à l'IA et une faible conscience de la nécessité d'une pensée critique. L'utilisateur a tendance à accepter les résultats de l'IA sans vérification approfondie, privilégiant la commodité et la rapidité. Cela conduit à un déchargement cognitif important, pouvant nuire à la mémorisation et au sentiment d'appropriation du travail.
+        Considérez-vous comme le novice de l'IA. Votre approche, très simple, consiste à faire entièrement confiance à l'IA, acceptant ses réponses sans vous casser la tête à les vérifier ou à les approfondir. Votre motivation première est la commodité et la rapidité, ce qui est tout à fait légitime à notre époque ! Vous avez tendance à déléguer une grande partie de l'effort mental à l'outil, une stratégie que l'on appelle joliment le "déchargement cognitif".<br><br>
+        Le petit hic, c'est que cette approche, si confortable soit-elle, peut freiner le développement de vos propres compétences en pensée critique. Vous pourriez même remarquer que vous avez plus de mal à vous souvenir des détails ou à vous sentir pleinement propriétaire du travail que vous avez produit avec l'aide de l'IA. C'est un peu comme si votre cerveau disait : "Ah, l'IA s'en occupe, je peux me reposer !". Votre confiance dans l'IA, même pour les tâches les plus banales, est si forte que vous ne remettez que rarement en question ou ne vérifiez les informations, partant du principe que l'outil est infaillible. En somme, vous êtes plutôt du genre à faire un copier-coller rapide avec un minimum d'édition personnelle. Rien de grave, mais attention à ne pas laisser votre cerveau s'endormir complètement sur ses lauriers numériques !
       </div>
       <div class="bloc-orange">
         <div style="font-size:1.13em; font-weight:700; color:#d27d18; margin-bottom:18px;">
-          ⚠️ Points d'attention
+          ⚠️ Points d’attention
         </div>
         <ul>
-          <li>à remplir</li>
+          <li>
+            <b>Votre mémoire risque de se transformer en passoire à fromage suisse :</b> Puisque vous confiez tout à l'IA, votre cerveau a tendance à se dire : "Super, je peux me reposer !" Imaginez que vous utilisez un GPS pour aller à la boulangerie du coin chaque jour. Au début, c'est pratique, mais très vite, vous oublierez le chemin sans lui. Le problème survient quand votre patron vous demande de restituer une information clé que l'IA vous a résumée il y a une heure. Vous vous retrouverez à fixer le plafond, cherchant désespérément un détail que votre cerveau, trop bien reposé, n'a jamais pris la peine d'encoder. C'est le prix de la commodité !
+          </li>
+          <li>
+            <b>Attention aux "hallucinations" de l'IA, le conteur farceur :</b> Votre confiance aveugle dans l'outil, même pour des tâches apparemment simples, peut vous jouer des tours. Si l'IA vous affirme avec la plus grande conviction que les licornes produisent de l'énergie renouvelable, vous pourriez être tenté de le croire sans sourciller. Or, l'IA peut parfois inventer des faits de toutes pièces, ou se tromper subtilement. Un copier-coller trop rapide sans vérification et voilà que votre présentation est truffée de "faits" qui feraient lever un sourcil même à un poisson rouge.
+          </li>
+          <li>
+            <b>Votre "touche personnelle" est en voie de disparition, comme les dinosaures :</b> Quand vous vous contentez de reprendre le contenu brut de l'IA, sans y mettre votre patte, le résultat peut sonner... générique. Les correcteurs humains ont déjà développé un sixième sens pour ces essais "sans âme" qui, bien que parfaits grammaticalement, manquent cruellement d'originalité et de votre individualité. C'est comme commander un plat dans un fast-food : c'est bon, mais on sent que personne n'y a mis son cœur.
+          </li>
+          <li>
+            <b>Le muscle de la pensée critique rouille à vitesse grand V :</b> En déléguant le gros de l'effort mental à l'IA, vous risquez de ne plus solliciter vos propres compétences en résolution de problèmes et en analyse. Si l'IA est toujours là pour vous tenir la main, comment apprendrez-vous à marcher seul sur des terrains glissants ? Le jour où vous vous retrouverez sans votre "assistant numérique" (panne d'internet, outil payant...), la tâche la plus simple pourrait vous sembler insurmontable.
+          </li>
+          <li>
+            <b>Le "bébé" n'est pas vraiment le vôtre :</b> Le sentiment de fierté et de propriété sur le travail accompli peut s'évaporer si vous attribuez une part significative, voire la majorité, du mérite à l'IA. Lorsque quelqu'un vous félicite pour une présentation brillante, vous pourriez sentir un pincement : est-ce vraiment "mon" succès ou celui de l'algorithme ? C'est un peu comme si vous vous attribuiez le mérite d'avoir marqué un but alors que c'est votre équipe qui a fait tout le travail.
+          </li>
         </ul>
       </div>
       <div style="background: #f7fbf6; border: 1.5px solid #d0eadc; border-radius: 11px; padding: 26px 19px 20px 19px; margin-top:44px; margin-bottom:39px;">
         <div style="font-size:1.13em; font-weight:700; color:#388e3c; margin-bottom:18px;">
-          💡 Pistes d'améliorations
+          🧠 Pistes d’amélioration
         </div>
         <ul>
-          <li>à remplir</li>
+          <li>
+            <b>Devenez un Sherlock Holmes des faits :</b> Prenez l'habitude de faire une vérification rapide des informations clés générées par l'IA, surtout si elles vous semblent un peu trop belles pour être vraies. Une recherche rapide sur le web ou une consultation d'une source fiable peut vous éviter bien des embarras. C'est comme goûter un plat avant de le servir : même si le chef est un génie, un grain de sel en plus peut faire la différence.
+          </li>
+          <li>
+            <b>Apposez votre griffe, même sur les "brouillons" de l'IA :</b> Ne copiez-collez jamais sans éditer. Reformulez des phrases, ajoutez des anecdotes personnelles, intégrez votre propre style d'écriture. L'IA est un excellent rédacteur de brouillons, mais c'est à vous de transformer ces ébauches en une œuvre qui porte votre empreinte inimitable. Transformez l'output de l'IA en une toile que vous peignez ensuite à votre manière.
+          </li>
+          <li>
+            <b>Le "Pourquoi Pas ?" Challenge :</b> Si l'IA vous donne une réponse, posez-vous la question : "Pourquoi cette réponse ?" ou "Y a-t-il d'autres façons d'aborder ce problème ?" Forcez-vous à explorer mentalement d'autres pistes. C'est comme si l'IA était un dictionnaire, et que vous, vous deveniez un écrivain qui choisit chaque mot avec intention, pas juste le premier qui vient à l'esprit.
+          </li>
+          <li>
+            <b>Des "sprints sans IA" réguliers :</b> Pour des tâches moins critiques ou pour des sections spécifiques, essayez de commencer entièrement sans l'IA. Mettez vos propres méninges à l'épreuve avant de laisser la machine prendre le relais. Cela renforcera vos propres capacités et vous rappellera que, oui, vous êtes toujours un penseur autonome. C'est comme faire une course à pied sans chrono de temps en temps, juste pour le plaisir de l'effort.
+          </li>
+          <li>
+            <b>Cultivez un "journal de bord de la confiance IA" :</b> Notez les fois où l'IA vous a étonné par sa justesse, mais aussi celles où elle a commis des erreurs. Cette pratique vous aidera à développer une confiance plus nuancée et éclairée, vous permettant de savoir quand vous pouvez vous fier à l'IA et quand votre vigilance est absolument nécessaire. C'est comme apprendre à connaître les forces et les faiblesses de votre copilote avant de lui confier les commandes de l'avion.
+          </li>
         </ul>
       </div>
     `

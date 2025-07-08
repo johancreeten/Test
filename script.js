@@ -357,35 +357,84 @@ const profils = [
 },
   // 14-16 points
   {
-    title: "L'innovateur autonome",
-    color: "#fff4f9",
-    border: "#c2185b",
-    explanation: `
-      <div style="font-size:2.6em; font-weight:800; margin-bottom:34px; color:#c2185b; text-align:center; text-transform:none;">
-        L'innovateur autonome
+  title: "L'innovateur autonome",
+  color: "#fff4f9",
+  border: "#c2185b",
+  explanation: `
+    <div style="font-size:2.6em; font-weight:800; margin-bottom:34px; color:#c2185b; text-align:center; text-transform:none;">
+      L'innovateur autonome
+    </div>
+    <div style="font-size:1.16em; margin-bottom:42px; text-align:justify; line-height:1.66;">
+      <b>Description :</b><br>
+      Accrochez-vous, car si vous vous reconnaissez dans ce profil, vous êtes tout simplement le plus avancé, le véritable visionnaire de l'IA ! Vous intégrez l'IA non seulement pour améliorer la qualité et l'efficacité de votre travail, mais aussi comme un puissant outil d'apprentissage continu. Votre objectif suprême est de développer continuellement vos propres compétences et de réduire votre dépendance future à l'IA. Vous ne voulez pas être dépendant, vous voulez grandir avec !<br><br>
+      Votre créativité est intrinsèquement autonome ; l'IA ne sert que de catalyseur pour explorer de nouvelles perspectives et valider des idées spécifiques que vous avez déjà en tête. C'est votre pensée qui mène la danse, l'IA est juste un danseur hors pair ! Vous exercez une gestion proactive de vos tâches et une intégration critique des apports de l'IA, garantissant que le produit final reflète pleinement votre expertise et votre "touche personnelle" inimitable. Ce profil s'efforce de minimiser tout impact négatif potentiel de l'IA sur la pensée critique et la formation de la mémoire à long terme, en cherchant un équilibre parfait entre l'assistance technologique et l'engagement cognitif personnel pour un développement optimal de vos capacités intellectuelles. Vous n'utilisez pas l'IA, vous l'assimilez pour vous dépasser. Un véritable maître du jeu numérique !
+    </div>
+    <div class="bloc-orange">
+      <div style="font-size:1.13em; font-weight:700; color:#d27d18; margin-bottom:18px;">
+        ⚠️ Points d’attention
       </div>
-      <div style="font-size:1.16em; margin-bottom:42px; text-align:justify; line-height:1.66;">
-        <b>Description :</b><br>
-        Ce profil représente l'utilisateur le plus avancé. Il intègre l'IA non seulement pour améliorer la qualité et l'efficacité de son travail, mais aussi comme un outil d'apprentissage pour développer ses propres compétences et réduire sa dépendance future à l'IA. Sa démarche créative est autonome, l'IA servant à explorer de nouvelles perspectives ou à valider des idées spécifiques. Il exerce une gestion de tâche proactive et une intégration critique, assurant que le produit final reflète pleinement sa "touche personnelle" et son expertise. Ce profil vise à minimiser l'impact négatif de l'IA sur la pensée critique et la formation de la mémoire à long terme.
+      <ul>
+        <li>
+          <b>Le paradoxe de la “non-dépendance” face à l’accoutumance invisible</b><br>
+          Votre volonté de rester indépendant de l’IA est inspirante. Mais attention à la douce routine : à force de déléguer l’étape de validation ou d’idéation à l’IA, le risque est d’oublier la saveur du travail à mains nues, un peu comme ces cyclistes qui découvrent la montée sans assistance électrique. Pour garder votre force musculaire intellectuelle, imposez-vous régulièrement une tâche clé 100 % “no tech” : par exemple, chaque mois, rédigez un article, une analyse ou une note sans le moindre prompt. Vous verrez, le retour à l’essentiel est aussi vivifiant qu’un café serré au lever du jour.<br>
+          ➡️ Planifiez une journée par mois sans IA pour un projet précis, et tenez un journal de bord de vos ressentis et résultats.
+        </li>
+        <li>
+          <b>La “validation” de l’IA, cette douce mélodie trompeuse</b><br>
+          On aime tous entendre qu’on a raison, surtout quand la validation vient à la vitesse de la lumière ! Pourtant, si l’IA approuve systématiquement vos intuitions, c’est parfois plus flatteur que formateur : l’équivalent numérique du “tu chantes bien” offert à chaque karaoké du vendredi soir. Pour ne pas sombrer dans l’autosatisfaction algorithmique, relisez chaque semaine deux ou trois validations IA et cherchez volontairement un contre-exemple ou une faille : la contradiction, c’est le sel du progrès.<br>
+          ➡️ Pour chaque validation IA obtenue sur un projet clé, prenez 10 minutes pour rechercher activement un point faible, puis notez-le dans le dossier du projet.
+        </li>
+        <li>
+          <b>La “course à l’armement intellectuel”</b><br>
+          Votre moteur tourne vite, dopé par le challenge d’aller toujours plus loin. Mais parfois, la meilleure idée naît d’une promenade sans but, et non d’un sprint d’optimisation. N’hésitez pas à planifier, chaque trimestre, une matinée sans objectif : ni production, ni apprentissage, juste laisser divaguer la pensée (dans un parc ou devant une feuille blanche, au choix). Vous pourriez bien y trouver la pépite qui ne se serait jamais révélée entre deux “sessions IA”.<br>
+          ➡️ Inscrivez à votre agenda une demi-journée tous les deux mois dédiée à l’exploration libre, sans IA ni impératif de résultat, puis partagez une trouvaille ou un ressenti avec un collègue.
+        </li>
+        <li>
+          <b>La “singularité” en mode “fusion”</b><br>
+          Votre marque personnelle, c’est votre fierté : on reconnaît vos productions à la première lecture. Mais quand l’IA se glisse partout, difficile de savoir ce qui vient de vous… ou de l’outil. Pour entretenir votre signature, relisez chaque trimestre deux ou trois projets où l’IA a beaucoup contribué : mettez en surbrillance ce qui relève de votre style, et ce qui pourrait “sentir l’IA”. Ce petit audit stylistique vous aidera à ajuster le tir pour rester authentique, même à l’ère du copier-améliorer.<br>
+          ➡️ Programmez tous les trois mois une session de relecture critique de vos travaux récents : isolez trois passages qui portent votre griffe et trois passages à “repersonnaliser”.
+        </li>
+        <li>
+          <b>Le “bruit blanc” de l’abondance d’idées</b><br>
+          Avoir dix idées à la minute, c’est grisant, mais gare au vertige créatif. Trop d’options tuent parfois la clarté : comme ces réunions où chaque slide ajoute une solution… sans jamais trancher. Pour garder le cap, fixez-vous une limite concrète : à chaque brainstorming assisté par IA, choisissez une seule idée à concrétiser avant d’en explorer une autre. Cela permet d’aller au bout de vos intuitions, et de mesurer ce qui vient vraiment enrichir vos projets.<br>
+          ➡️ Après chaque session de génération d’idées avec l’IA, décidez d’un concept à approfondir en priorité cette semaine, et reportez les autres dans une “boîte à idées” à consulter le mois suivant.
+        </li>
+      </ul>
+    </div>
+    <div style="background: #f7fbf6; border: 1.5px solid #d0eadc; border-radius: 11px; padding: 26px 19px 20px 19px; margin-top:44px; margin-bottom:39px;">
+      <div style="font-size:1.13em; font-weight:700; color:#388e3c; margin-bottom:18px;">
+        🧠 Pistes d’amélioration
       </div>
-      <div class="bloc-orange">
-        <div style="font-size:1.13em; font-weight:700; color:#d27d18; margin-bottom:18px;">
-          ⚠️ Points d'attention
-        </div>
-        <ul>
-          <li>à remplir</li>
-        </ul>
-      </div>
-      <div style="background: #f7fbf6; border: 1.5px solid #d0eadc; border-radius: 11px; padding: 26px 19px 20px 19px; margin-top:44px; margin-bottom:39px;">
-        <div style="font-size:1.13em; font-weight:700; color:#388e3c; margin-bottom:18px;">
-          💡 Pistes d'améliorations
-        </div>
-        <ul>
-          <li>à remplir</li>
-        </ul>
-      </div>
-    `
-  }
+      <ul>
+        <li>
+          <b>Le “Digital Detox Challenge”</b><br>
+          Prévoir des périodes de jeûne numérique n’est pas qu’une tendance bien-être, c’est aussi un excellent test de robustesse créative. Définissez à l’avance vos moments sans IA pour certaines étapes : par exemple, le premier jet d’un texte, ou le plan d’un projet. Après chaque période, faites un retour sur votre aisance, vos blocages, et les différences observées. Cela deviendra vite un rituel stimulant, propice à de belles surprises.<br>
+          ➡️ Fixez une “IA pause” sur votre agenda une fois par mois pour un dossier précis, et faites un bilan écrit de votre ressenti et des idées issues de cette session.
+        </li>
+        <li>
+          <b>L’IA, votre “challenger” personnel</b><br>
+          Ne cherchez pas seulement la confirmation, exigez l’opposition : utilisez l’IA comme partenaire de débat. Pour chaque concept clé, programmez une session où l’IA doit systématiquement trouver trois défauts, trois risques, ou trois arguments adverses. Consignez ces objections dans un tableau de suivi pour vos projets. Vous verrez : défendre vos idées vous rendra encore plus maître de votre terrain.<br>
+          ➡️ Avant chaque validation finale, demandez à l’IA de jouer le “démonteur” : archivez ses critiques dans la documentation du projet, et traitez au moins un de ces points dans la version livrée.
+        </li>
+        <li>
+          <b>Des “séries de création thématiques”</b><br>
+          Pratiquez l’alternance pour booster votre créativité. Sur un sujet de fond, réalisez d’abord une séance de brainstorming 100 % autonome (papier, voix, tableau blanc), puis faites la même chose avec l’IA. Notez noir sur blanc ce qui diffère : styles, angles, originalité. Une fois par trimestre, organisez un retour collectif (même informel) pour partager ce que cette méthode vous a apporté.<br>
+          ➡️ Pour chaque grand projet, planifiez une session créative “solo”, puis une session “avec IA”, et comparez leurs résultats dans une fiche synthèse.
+        </li>
+        <li>
+          <b>Le “manuel de style personnel”</b><br>
+          Élaborer votre “griffe” stylistique, c’est poser des balises dans le paysage numérique. Tenez à jour un recueil évolutif de vos expressions, formulations, et façons d’introduire une idée. Avant chaque publication majeure, confrontez votre production (même IA assistée) à ce référentiel, et ajustez ce qui doit l’être. Cela vous permettra de garder la main sur votre signature… à toute vitesse.<br>
+          ➡️ Mettez à jour votre recueil personnel à la fin de chaque trimestre, et relisez-le avant de valider un texte important.
+        </li>
+        <li>
+          <b>L’IA comme “catalyseur de l’inattendu”</b><br>
+          Laissez l’IA injecter un peu d’absurde ou d’irrévérencieux dans vos processus créatifs. Pour chaque projet, autorisez-vous à lui demander une idée “impossible” ou “farfelue”, sans chercher à l’appliquer. Le simple fait d’y réfléchir ouvrira des connexions nouvelles : parfois, c’est dans l’étrangeté que naissent les vraies trouvailles.<br>
+          ➡️ Pour chaque brainstorming, inscrivez une “idée folle IA” dans le compte-rendu, et choisissez chaque mois l’une d’elles à explorer – même à petite échelle ou juste pour tester son potentiel.
+        </li>
+      </ul>
+    </div>
+  `
+}
 ];
 
 // === 2. Variables d'état ===

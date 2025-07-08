@@ -601,11 +601,12 @@ function showResult() {
 
   // Attribution du profil selon la plage de points
   let profil = profils.find(p => {
-    if (p.title === "Le suiveur passif") return score >= 0 && score <= 3;
-    if (p.title === "L'adepte pragmatique") return score >= 4 && score <= 6;
-    if (p.title === "Le curateur engagé") return score >= 7 && score <= 10;
-    if (p.title === "Le penseur critique") return score >= 11 && score <= 13;
-    if (p.title === "L'innovateur autonome") return score >= 14 && score <= 16;
+    let profil = null;
+if (score <= 3) profil = profils[0];
+else if (score <= 6) profil = profils[1];
+else if (score <= 10) profil = profils[2];
+else if (score <= 13) profil = profils[3];
+else profil = profils[4];
   });
 
   // Calcul du pourcentage sur 16

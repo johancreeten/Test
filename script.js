@@ -157,7 +157,7 @@ const profils = [
   },
   // 4-6 points
   {
-    title: "L’adepte pragmatique",
+  title: "L’adepte pragmatique",
   color: "#fffbe7",
   border: "#dba800",
   explanation: `
@@ -217,66 +217,144 @@ const profils = [
 },
   // 7-10 points
   {
-    title: "Le curateur engagé",
-    color: "#e5f4ff",
-    border: "#0288d1",
-    explanation: `
-      <div style="font-size:2.6em; font-weight:800; margin-bottom:34px; color:#0288d1; text-align:center; text-transform:none;">
-        Le curateur engagé
+  title: "Le scribe engagé",
+  color: "#e5f4ff",
+  border: "#0288d1",
+  explanation: `
+    <div style="font-size:2.6em; font-weight:800; margin-bottom:34px; color:#0288d1; text-align:center; text-transform:none;">
+      Le scribe engagé
+    </div>
+    <div style="font-size:1.16em; margin-bottom:42px; text-align:justify; line-height:1.66;">
+      <b>Description :</b><br>
+      Vous faites partie des utilisateurs intermédiaires. Votre approche de l'IA est celle d'un collaborateur actif, presque un partenaire créatif. Vous n'êtes pas là pour un simple copier-coller. Oh non ! Vous utilisez l'IA comme un tremplin pour la génération d'idées et la structuration de contenu, que vous vous empressez ensuite d'adapter et de raffiner de manière proactive. Vous ne vous contentez jamais de la production brute de l'IA ; vous y ajoutez votre touche personnelle, ajustez le ton et le style pour qu'ils correspondent parfaitement à vos intentions.<br><br>
+      Vous êtes conscient de l'importance d'évaluer et de vérifier les productions de l'IA, même si vous savez, en bon connaisseur, que ses suggestions peuvent parfois subtilement influencer votre propre pensée. C'est une danse délicate entre vous et la machine ! Le temps que vous gagnez grâce à l'IA n'est pas une excuse pour bâcler la tâche suivante. Au contraire, vous le réinvestissez pour améliorer la qualité de votre travail ou explorer d'autres facettes du projet, prouvant que l'efficacité peut rimer avec l'excellence. Vous êtes un expert de l'intégration critique, cherchant à combiner les forces de l'IA avec votre propre expertise pour un résultat optimal, même si l'apprentissage profond n'est pas toujours votre objectif principal. Un véritable artiste du numérique, soucieux du détail et de la personnalisation !
+    </div>
+    <div class="bloc-orange">
+      <div style="font-size:1.13em; font-weight:700; color:#d27d18; margin-bottom:18px;">
+        ⚠️ Points d’attention
       </div>
-      <div style="font-size:1.16em; margin-bottom:42px; text-align:justify; line-height:1.66;">
-        <b>Description :</b><br>
-        Ce profil utilise l'IA comme un outil collaboratif, notamment pour la génération d'idées ou la structuration de contenu, qu'il adapte et raffine activement. Il est conscient de l'importance de vérifier et d'évaluer les sorties de l'IA, même s'il peut encore être influencé par les suggestions du modèle. Le temps gagné est souvent réinvesti dans la modification ou l'amélioration du travail, mais pas nécessairement pour un apprentissage profond.
+      <ul>
+        <li>
+          <b>L'IA, ce "partenaire" un peu trop persuasif :</b> Vous considérez l'IA comme un collaborateur, un tremplin pour vos idées. C'est excellent ! Mais attention, même un bon partenaire peut influencer subtilement votre pensée. L'IA peut vous orienter vers des structures, des tournures ou des arguments qui, bien que pertinents, ne seraient pas spontanément les vôtres. Vous risquez de perdre un peu de votre originalité inconsciemment, comme un chef qui, à force de goûter les plats de son second, commence à cuisiner comme lui.
+        </li>
+        <li>
+          <b>Le "raffinement constant" peut masquer la "création initiale paresseuse" :</b> Vous réinvestissez le temps gagné dans l'amélioration de la qualité, ce qui est une approche louable. Cependant, si l'IA génère systématiquement les "premières ébauches" ou les "sections entières", vous pourriez manquer les opportunités de développer vos propres stratégies de démarrage, de surmonter le fameux "syndrome de la page blanche". La proactivité du raffinage est top, mais la phase de démarrage peut devenir un talon d'Achille.
+        </li>
+        <li>
+          <b>L'épuisement du "superviseur exigeant" :</b> Être constamment en mode "adaptation et raffinement proactif" est énergivore. Si vous passez votre temps à remodeler la pâte de l'IA, vous risquez une certaine fatigue cognitive. Le cerveau peut être plus sollicité dans la vérification et la modification que dans la génération pure, ce qui pourrait vous laisser un sentiment d'épuisement à la fin de la journée.
+        </li>
+        <li>
+          <b>La "profondeur d'apprentissage" reste sur le quai :</b> Même si vous êtes un expert de l'intégration critique, l'objectif d'apprentissage profond n'est pas toujours au rendez-vous. En vous basant sur l'IA pour structurer et générer des idées, vous pourriez ne pas solliciter suffisamment les processus cognitifs qui permettent une véritable consolidation de la mémoire à long terme ou une compréhension conceptuelle plus abstraite.
+        </li>
+        <li>
+          <b>Le syndrome du "déjà-vu lexical" :</b> En peaufinant le style et le ton, vous faites un excellent travail pour personnaliser le contenu. Mais l'IA a ses propres "habitudes" linguistiques, ses n-grammes récurrents. Sans y prendre garde, vous pourriez adopter, au fil du temps, certaines de ces expressions "IA-générées", réduisant ainsi la singularité de votre propre vocabulaire et de votre style.
+        </li>
+      </ul>
+    </div>
+    <div style="background: #f7fbf6; border: 1.5px solid #d0eadc; border-radius: 11px; padding: 26px 19px 20px 19px; margin-top:44px; margin-bottom:39px;">
+      <div style="font-size:1.13em; font-weight:700; color:#388e3c; margin-bottom:18px;">
+        🧠 Pistes d’amélioration
       </div>
-      <div class="bloc-orange">
-        <div style="font-size:1.13em; font-weight:700; color:#d27d18; margin-bottom:18px;">
-          ⚠️ Points d'attention
-        </div>
-        <ul>
-          <li>à remplir</li>
-        </ul>
-      </div>
-      <div style="background: #f7fbf6; border: 1.5px solid #d0eadc; border-radius: 11px; padding: 26px 19px 20px 19px; margin-top:44px; margin-bottom:39px;">
-        <div style="font-size:1.13em; font-weight:700; color:#388e3c; margin-bottom:18px;">
-          💡 Pistes d'améliorations
-        </div>
-        <ul>
-          <li>à remplir</li>
-        </ul>
-      </div>
-    `
-  },
+      <ul>
+        <li>
+          <b>Le "défie-moi !" créatif :</b> Quand l'IA vous propose des idées ou des structures, essayez de trouver une alternative "à la main" qui soit radicalement différente. Ne cherchez pas à l'améliorer, mais à la contredire. Cette friction stimulera votre propre créativité et vous permettra de distinguer encore mieux votre pensée autonome de celle de la machine.
+        </li>
+        <li>
+          <b>Des "matinées sans IA" pour la génération brute :</b> Dédiez certains créneaux horaires ou projets à la pure génération d'idées et de contenu sans aucune assistance de l'IA. Laissez votre cerveau explorer librement, faire des erreurs, trouver ses propres chemins. C'est dans cette "zone de liberté" que l'innovation personnelle prend souvent son envol.
+        </li>
+        <li>
+          <b>L'IA comme "coach en métacognition" :</b> Au lieu de simplement utiliser l'IA pour générer du contenu, demandez-lui d'analyser vos prompts et vos interactions. "Est-ce que je pourrais être plus clair ?" "Comment pourrais-je mieux structurer ma pensée pour obtenir un résultat encore plus précis ?" Utilisez l'IA pour vous aider à mieux réfléchir sur votre propre processus de pensée.
+        </li>
+        <li>
+          <b>Le "relevé de vocabulaire" personnel :</b> De temps en temps, prenez un échantillon de vos écrits assistés par l'IA et comparez-le à un texte que vous avez écrit entièrement seul. Repérez les mots ou expressions "typiques de l'IA" et forcez-vous à les remplacer par des synonymes ou des tournures plus originales. Votre style vous remerciera !
+        </li>
+        <li>
+          <b>Investissez dans le "temps de la curiosité pure" :</b> Utilisez une partie du temps que l'IA vous fait gagner non pas pour améliorer la qualité de votre travail actuel, mais pour explorer un sujet complètement nouveau ou pour approfondir un concept qui vous passionne, sans objectif de productivité immédiate. Nourrissez votre curiosité, c'est le carburant de l'innovation autonome.
+        </li>
+      </ul>
+    </div>
+  `
+},
   // 11-13 points
   {
-    title: "Le penseur critique",
-    color: "#e5fbea",
-    border: "#21936a",
-    explanation: `
-      <div style="font-size:2.6em; font-weight:800; margin-bottom:34px; color:#21936a; text-align:center; text-transform:none;">
-        Le penseur critique
+  title: "Le penseur critique",
+  color: "#e5fbea",
+  border: "#21936a",
+  explanation: `
+    <div style="font-size:2.6em; font-weight:800; margin-bottom:34px; color:#21936a; text-align:center; text-transform:none;">
+      Le penseur critique
+    </div>
+    <div style="font-size:1.16em; margin-bottom:42px; text-align:justify; line-height:1.66;">
+      <b>Description :</b><br>
+      Vous êtes ici dans la catégorie des avancés, le détective de l'information assistée par l'IA ! Ce qui vous distingue, c'est votre grande confiance en vos propres capacités, une force qui vous permet de vous engager activement dans la vérification et l'intégration des réponses de l'IA. Votre processus de pensée critique est d'une robustesse impressionnante : vous ne vous contentez jamais de l'information fournie par l'IA. Au lieu de cela, vous la recoupez systématiquement avec des sources externes et votre propre expertise. C'est votre super-pouvoir !<br><br>
+      Vous considérez l'IA non pas comme un remplaçant, mais comme un moyen puissant d'améliorer la qualité de votre travail et d'éviter les erreurs ou les biais. Grâce à votre auto-confiance, vous maintenez un sentiment élevé de propriété sur le travail que vous produisez, car vous savez que c'est votre esprit qui guide vraiment le processus. Le temps libéré par l'IA est réinvesti dans une réflexion stratégique approfondie et dans l'amélioration continue de la qualité. De plus, vous êtes particulièrement attentif aux considérations éthiques, telles que la confidentialité des données et les biais algorithmiques, et vous cherchez à utiliser l'IA de manière responsable. En somme, vous êtes la conscience de l'IA, le gardien de la qualité et de l'intégrité !
+    </div>
+    <div class="bloc-orange">
+      <div style="font-size:1.13em; font-weight:700; color:#d27d18; margin-bottom:18px;">
+        ⚠️ Points d’attention
       </div>
-      <div style="font-size:1.16em; margin-bottom:42px; text-align:justify; line-height:1.66;">
-        <b>Description :</b><br>
-        Caractérisé par une haute confiance en soi, cet utilisateur s'engage activement dans la vérification et l'intégration des réponses de l'IA. Son processus de pensée critique est fort, incluant la vérification systématique des sources. Il maintient un sentiment élevé d'appropriation de son travail et utilise le temps libéré par l'IA pour une réflexion stratégique approfondie et pour améliorer la qualité, plutôt que de simplement passer à la tâche suivante. Il est également sensible aux considérations éthiques comme la confidentialité des données.
+      <ul>
+        <li>
+          <b>La “super-confiance” : le syndrome du parapluie un jour de beau temps</b><br>
+          Votre assurance intellectuelle, c’est un atout dans la plupart des réunions, mais face à l’IA, elle peut aussi voiler certains angles morts. L’IA a le chic pour générer de fausses évidences avec le sérieux d’un consultant en costume trois pièces. Imaginez : elle insère dans un rapport RH une statistique “très crédible” mais totalement fictive… et personne ne s’en aperçoit avant le comité de direction. Pour éviter ce genre de “piège élégant”, gardez toujours une routine d’audit, même sur les sujets où vous avez l’impression d’être en terrain conquis. Un œil neuf de temps en temps, c’est l’équivalent d’un café filtre : ça révèle les impuretés invisibles.<br>
+          ➡️ Concrètement, programmez chaque trimestre une vérification croisée aléatoire de plusieurs livrables issus de l’IA, et partagez vos constats en réunion d’équipe.
+        </li>
+        <li>
+          <b>L’usure du “double-check” : fatigue du contrôleur qualité</b><br>
+          Votre rigueur méthodique est précieuse, mais à vouloir tout revérifier, même le post-it sur le frigo, le risque, c’est la lassitude. Au bureau, ce serait comme relire trois fois chaque note de service, jusqu’à hésiter sur la formulation d’“amitiés distinguées”. À force, votre efficacité peut fondre comme un glaçon oublié près d’un PC portable. Distinguez bien les tâches cruciales (rapport financier, note juridique) des micro-missions quotidiennes : tout ne mérite pas une contre-enquête. Une astuce ? Établir un code couleur mental entre “à relire absolument” et “peut survivre sans triple vérif”.<br>
+          ➡️ Pour agir, définissez dès cette semaine deux catégories de tâches (à vérification forte / à vérification légère) et réajustez votre charge de travail au fil du mois.
+        </li>
+        <li>
+          <b>Effet “biais boomerang” : l’IA qui renvoie la balle dans votre camp</b><br>
+          Si l’IA devient le collègue qui dit toujours “excellente idée, chef !”, vous risquez d’avancer en cercle. Par exemple, sur un projet stratégique, si vous orientez toujours l’IA pour valider vos intuitions, vous n’obtenez qu’un élégant effet miroir – et peu de contradiction constructive. Invitez-la régulièrement à jouer l’opposant : “Quels seraient les risques ? Les contre-arguments ?” C’est l’équivalent numérique de ce collègue qui glisse : “Et si on faisait l’inverse… ?”<br>
+          ➡️ Faites-le au moins une fois sur trois lors de vos grandes décisions : demandez explicitement à l’IA de produire des objections, et conservez la trace de ces “contre-analyses” pour vos réunions de pilotage.
+        </li>
+        <li>
+          <b>L’éthique, parent pauvre de l’automatisation</b><br>
+          Aucune IA n’a encore demandé un rendez-vous avec le DPO. Dès qu’il s’agit de données sensibles ou d’impact social, la tentation de se reposer sur l’automatisation est grande. Pourtant, la vigilance reste humaine : c’est vous qui devez vérifier, par exemple, si une synthèse destinée au CODIR ne fait pas fuiter des infos confidentielles ou si les algorithmes utilisés ne reproduisent pas des biais connus. L’IA, c’est la calculatrice ; l’esprit critique, c’est la personne qui fait la comptabilité. On ne délègue pas le contrôle des coffres à la machine à café.<br>
+          ➡️ À chaque projet nouveau impliquant des données personnelles, prenez cinq minutes pour valider la conformité éthique avant la mise en circulation, et archivez cette vérification dans un registre accessible.
+        </li>
+        <li>
+          <b>Paralysie par l’excellence : syndrome du plan parfait en open space</b><br>
+          L’IA peut donner l’illusion qu’on pourra tout maîtriser, tout prévoir… jusqu’à ce que le projet s’enlise dans le perfectionnisme. À force d’attendre la version “ultime”, on finit parfois par rater la réunion où tout devait se jouer. En pratique, un plan “bon mais perfectible” lancé à temps permet souvent d’apprendre plus vite – et d’éviter l’effet tunnel. En entreprise, la feuille de route imparfaite mais partagée avance plus loin qu’un chef-d’œuvre solitaire oublié sur le serveur partagé.<br>
+          ➡️ Dès le prochain cycle projet, fixez-vous un délai maximal pour la version bêta (par exemple deux semaines), puis lancez-la sans attendre la version idéale. Mesurez ensuite l’évolution via les retours terrain.
+        </li>
+      </ul>
+    </div>
+    <div style="background: #f7fbf6; border: 1.5px solid #d0eadc; border-radius: 11px; padding: 26px 19px 20px 19px; margin-top:44px; margin-bottom:39px;">
+      <div style="font-size:1.13em; font-weight:700; color:#388e3c; margin-bottom:18px;">
+        🧠 Pistes d’amélioration
       </div>
-      <div class="bloc-orange">
-        <div style="font-size:1.13em; font-weight:700; color:#d27d18; margin-bottom:18px;">
-          ⚠️ Points d'attention
-        </div>
-        <ul>
-          <li>à remplir</li>
-        </ul>
-      </div>
-      <div style="background: #f7fbf6; border: 1.5px solid #d0eadc; border-radius: 11px; padding: 26px 19px 20px 19px; margin-top:44px; margin-bottom:39px;">
-        <div style="font-size:1.13em; font-weight:700; color:#388e3c; margin-bottom:18px;">
-          💡 Pistes d'améliorations
-        </div>
-        <ul>
-          <li>à remplir</li>
-        </ul>
-      </div>
-    `
-  },
+      <ul>
+        <li>
+          <b>L’avocat du diable à la machine à café</b><br>
+          Habituez-vous à provoquer l’IA : demandez-lui systématiquement de prendre la position opposée à la vôtre, comme ce collègue facétieux qui remet tout en question “pour voir”. Exemple : après une analyse, posez : “Peux-tu identifier trois raisons pour lesquelles ce plan échouerait ?” ou “Quels sont les arguments qu’un concurrent utiliserait contre nous ?” Cela muscle votre résistance aux angles morts – et fait du bien à la robustesse du projet.<br>
+          ➡️ Prenez l’habitude, au moins une fois par semaine, de solliciter l’IA en mode “adversaire” pour un dossier clé. Consignez les objections reçues et partagez-les dans votre prochaine réunion d’équipe.
+        </li>
+        <li>
+          <b>Confiance modulée : le thermostat du discernement</b><br>
+          Apprenez à ajuster votre niveau d’exigence en fonction des enjeux. Inutile de faire un audit qualité pour chaque note d’ambiance ou email de relance : économisez vos réserves de lucidité pour les dossiers à fort impact. C’est comme choisir de réserver sa concentration pour les réunions stratégiques plutôt que de l’épuiser lors du point café du matin. Une “confiance raisonnée” permet de gagner du temps… et d’éviter le surmenage analytique.<br>
+          ➡️ Déterminez, sur votre agenda hebdomadaire, les moments où vous autorisez une vérification minimale, et ceux où la relecture attentive reste de rigueur. Réévaluez ce ratio chaque mois.
+        </li>
+        <li>
+          <b>Organisez la “rencontre des contraires”</b><br>
+          Sollicitez l’IA pour explorer de nouveaux territoires : “Adopte le point de vue du client le plus sceptique”, “Résume ce projet comme si tu étais dans un pays qui n’a pas la même culture digitale”… Cela génère souvent des objections ou des idées inattendues, comme lors d’un brainstorm où le stagiaire ose dire tout haut ce que tout le monde pense tout bas. Plus les points de vue sont variés, plus le projet s’ouvre à l’innovation.<br>
+          ➡️ Fixez-vous l’objectif d’intégrer chaque mois un scénario “vision opposée” dans un de vos dossiers majeurs, et présentez systématiquement ces alternatives lors des points d’étape.
+        </li>
+        <li>
+          <b>La carte mentale des “zones d’ombre” IA</b><br>
+          Tenez à jour une vraie liste (papier ou partagée) des risques connus : fuite de données, reproduction de stéréotypes, dépendance excessive à un fournisseur externe… Cette carte n’a rien d’un gadget RH : elle permet d’anticiper, d’alerter (et d’éclairer la direction) en cas de doute. C’est l’équivalent digital du plan d’évacuation : on espère ne jamais s’en servir, mais le jour venu, tout le monde sait où courir.<br>
+          ➡️ Dès ce trimestre, élaborez avec l’équipe une cartographie des “zones à risque IA” sur un document partagé, puis mettez-la à jour après chaque incident ou retour d’expérience.
+        </li>
+        <li>
+          <b>De la réflexion au prototype (et retour)</b><br>
+          Fixez des délais clairs pour basculer de l’analyse à l’action, quitte à accepter l’imperfection. “Livrer une version 1 d’ici vendredi, puis ajuster avec les retours réels” : en entreprise, c’est souvent ce qui distingue ceux qui avancent de ceux qui “en sont encore à la maquette”. Privilégiez l’expérimentation concrète à la théorie éternelle – rien de tel qu’un feedback utilisateur pour réveiller le projet, et la curiosité de l’équipe, tout en gardant l’IA dans le rôle d’alliée (et non d’alibi).<br>
+          ➡️ À chaque nouveau projet, planifiez un premier livrable “test” à une date précise, puis inscrivez dans le calendrier la séance de retour critique deux semaines plus tard pour en tirer des améliorations concrètes.
+        </li>
+      </ul>
+    </div>
+  `
+},
   // 14-16 points
   {
     title: "L'innovateur autonome",

@@ -208,7 +208,7 @@ button, .choice-button {
   font-weight: 500;
   cursor: pointer;
   box-shadow: none;
-  transition: background 0.13s, border 0.13s, color 0.13s;
+  transition: background 0.13s, border 0.13s, color 0.13s, font-weight 0.13s;
   text-align: justify;
   padding: 16px 20px;
   margin-bottom: 16px;
@@ -225,9 +225,11 @@ button, .choice-button {
 
 /* Réponse sélectionnée */
 .choice-button.selected, .choice-button.active {
-  background: #dbeaff;
-  color: #19306e;
-  border: 2px solid #284ba8;
+  background: #e6fbe6;
+  color: #24b524;
+  border: 2px solid #24b524;
+  font-weight: 700;
+  transition: background 0.13s, color 0.13s, border 0.13s, font-weight 0.13s;
 }
 
 /* Radio styling */

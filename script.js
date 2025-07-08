@@ -600,13 +600,12 @@ function showResult() {
   }, 0);
 
   // Attribution du profil selon la plage de points
-let profil = profils.find(p => {
-  let profil = null;
-  if (score <= 3) profil = profils[0];
-  else if (score <= 6) profil = profils[1];
-  else if (score <= 10) profil = profils[2];
-  else if (score <= 13) profil = profils[3];
-  else profil = profils[4];
+let profil;
+if (score <= 3) profil = profils[0];
+else if (score <= 6) profil = profils[1];
+else if (score <= 10) profil = profils[2];
+else if (score <= 13) profil = profils[3];
+else profil = profils[4];
 });
 
   // Calcul du pourcentage sur 16

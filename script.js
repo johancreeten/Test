@@ -304,9 +304,7 @@ function showSection(sectionId) {
 // === 4. Affichage de l'intro ===
 function showIntro() {
   showSection('intro-section');
-  // Jauge remise à 0
   updateProgressBar(0, questions.length);
-  // Ajoute le crédit si pas déjà là
   const introSection = document.getElementById('intro-section');
   if (introSection && !introSection.querySelector('.credit')) {
     const startBtn = introSection.querySelector('#start-btn');
@@ -373,9 +371,15 @@ function renderQuestion(index) {
     input.value = i;
     if (userAnswers[index] === i) input.checked = true;
 
+    // Ajoute l'effet sélection + bouton vert
     input.addEventListener('change', function() {
+      // Gère le style sélectionné pour la réponse
       document.querySelectorAll('.choice-button').forEach(lab => lab.classList.remove('selected'));
       label.classList.add('selected');
+
+      // Gère le bouton "Suivant" ou "Voir mon profil IA"
+      let nextBtn = document.getElementById('next-btn') || document.getElementById('submit-btn');
+      if(nextBtn) nextBtn.classList.add('next-green');
     });
 
     label.appendChild(input);
@@ -389,6 +393,9 @@ function renderQuestion(index) {
   let nextBtn = document.createElement('button');
   nextBtn.textContent = (index < questions.length - 1) ? 'Suivant' : 'Voir mon profil IA';
   nextBtn.id = (index < questions.length - 1) ? 'next-btn' : 'submit-btn';
+
+  // Nettoie la classe verte au changement de question (pour ne pas la garder sur la question suivante)
+  nextBtn.classList.remove('next-green');
 
   nextBtn.addEventListener('click', function() {
     const checked = quizSection.querySelector('input[name="option"]:checked');
@@ -410,6 +417,16 @@ function renderQuestion(index) {
   // Ajoute le crédit juste sous le bouton
   const creditDiv = createCreditDiv();
   nextBtn.insertAdjacentElement('afterend', creditDiv);
+
+  // Si déjà répondu (cas retour en arrière), restaure bouton vert si besoin
+  if (typeof userAnswers[index] !== 'undefined') {
+    // Retrouve le bouton next ou submit et applique la classe verte
+    let btn = document.getElementById('next-btn') || document.getElementById('submit-btn');
+    if(btn) btn.classList.add('next-green');
+    // Ajoute aussi la classe 'selected' à la réponse déjà choisie
+    let labels = quizSection.querySelectorAll('.choice-button');
+    if(labels[userAnswers[index]]) labels[userAnswers[index]].classList.add('selected');
+  }
 }
 
 // === 7. Affichage du résultat ===

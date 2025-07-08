@@ -232,6 +232,26 @@ button, .choice-button {
   transition: background 0.13s, color 0.13s, border 0.13s, font-weight 0.13s;
 }
 
+/* Coche verte sur radio sélectionné */
+.choice-button.selected input[type="radio"],
+.choice-button.active input[type="radio"] {
+  accent-color: #24b524;
+}
+
+/* Bouton "suivant" ou "valider" en vert après sélection */
+button.next-green,
+button#submit-btn.next-green {
+  background: #24b524 !important;
+  color: #fff !important;
+  border: none !important;
+  box-shadow: 0 2px 12px 0 #4ee37833;
+  transition: background 0.13s, color 0.13s, box-shadow 0.13s;
+}
+button.next-green:active,
+button#submit-btn.next-green:active {
+  background: #19891c !important;
+}
+
 /* Radio styling */
 .choice-button input[type="radio"] {
   accent-color: #284ba8;

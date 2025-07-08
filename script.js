@@ -95,7 +95,7 @@ const questions = [
 ];
 
 
-onst profils = [
+Const profils = [
   // 0-3 points
   {
     title: "Le suiveur passif",

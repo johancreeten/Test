@@ -1,0 +1,333 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: #f6f8fb;
+  font-family: "Inter", Arial, Helvetica, sans-serif;
+  min-height: 100vh;
+}
+
+/* Barre de progression épaisse et visible */
+#progress-bar {
+  width: 100%;
+  height: 38px;
+  background: #e0e4e8;
+  margin: 0 0 30px 0;
+  overflow: hidden;
+  border-radius: 16px;
+  position: relative;
+  box-shadow: 0 2px 16px #c2d1ee33;
+  display: flex;
+  align-items: center;
+}
+
+.progress-bar-inner {
+  background: linear-gradient(90deg, #284ba8 70%, #3c67d6 100%);
+  height: 100%;
+  border-radius: 16px;
+  position: relative;
+  transition: width 0.22s cubic-bezier(.5,.1,.39,1.1);
+  display: flex;
+  align-items: center;
+}
+
+.progress-percent {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -48%);
+  color: #fff;
+  font-weight: 900;
+  font-size: 1.28em;
+  background: transparent;
+  padding: 0 12px;
+  z-index: 2;
+  text-shadow: 0 2px 6px #274a8a, 0 1px 0 #1a3063;
+  pointer-events: none;
+  letter-spacing: 1px;
+  white-space: nowrap;
+  line-height: 1;
+}
+
+@media (max-width: 600px) {
+  #progress-bar {
+    height: 22px;
+    border-radius: 8px;
+  }
+  .progress-bar-inner {
+    border-radius: 8px;
+  }
+  .progress-percent {
+    font-size: 1.02em;
+    padding: 0 6px;
+  }
+}
+
+/* Conteneur principal harmonisé */
+.main-container {
+  max-width: 540px;
+  margin: 44px auto 0 auto;
+  padding: 38px 36px 50px 36px;
+  background: #fff;
+  border-radius: 32px;
+  box-shadow: 0 4px 40px 0 rgba(31, 47, 70, 0.13);
+  font-size: clamp(16px, 2.2vw, 21px);
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  min-height: 62vh;
+}
+
+@media (max-width: 900px) {
+  .main-container {
+    max-width: 96vw;
+    padding: 6vw 3vw;
+    margin-top: 5vw;
+    border-radius: 7vw;
+    font-size: clamp(15px, 4vw, 21px);
+  }
+}
+
+/* TITRE EN BLEU */
+.titre-bleu {
+  color: #284ba8;
+  font-size: 2.15em;
+  font-weight: 800;
+  margin-top: 0;
+  margin-bottom: 0.75em;
+  line-height: 1.1;
+  letter-spacing: -0.01em;
+}
+
+/* Texte d'intro personnalisé */
+.intro-texte {
+  margin-top: 18px;
+  margin-bottom: 12px;
+  font-size: 1.16em;
+  line-height: 1.55;
+}
+
+/* N.B. en italique et bleu-gris */
+.intro-texte em {
+  display: block;
+  font-style: italic;
+  color: #6370a4;
+  margin-top: 10px;
+  margin-bottom: 6px;
+  font-size: 0.99em;
+}
+
+h1, h2, h3 {
+  font-family: inherit;
+  font-weight: 800;
+  line-height: 1.1;
+  letter-spacing: -0.01em;
+}
+
+h2 {
+  font-size: 1.35em;
+  margin-top: 0.5em;
+}
+
+/* QUESTIONS NON GRAS */
+#quiz-section h2 {
+  font-weight: 400;
+  font-size: 1.19em;
+  margin-top: 0.3em;
+  margin-bottom: 0.7em;
+}
+
+/* Justification globale des textes */
+p,
+.intro-texte,
+ul,
+li,
+.bloc-orange,
+#result-section > div,
+.options-list,
+.choice-button,
+#quiz-section h2,
+#result-section h2,
+#result-section div {
+  text-align: justify;
+}
+
+/* Liste puces résultats : interligne avant chaque puce (sauf la 1ère) */
+.bloc-orange ul li + li {
+  margin-top: 10px;
+}
+
+/* Interligne après chaque exemple dans les listes de résultats */
+.bloc-orange li > div {
+  margin-top: 6px;
+  margin-bottom: 18px;
+  display: block;
+}
+
+p, li, label, span, .option-label {
+  color: #1f2f46;
+  font-size: 1em;
+  line-height: 1.58;
+}
+
+ul {
+  padding-left: 1.3em;
+  margin-top: 0;
+  margin-bottom: 1.15em;
+}
+
+/* Boutons centrés */
+button, .choice-button {
+  background: #284ba8;
+  color: #fff;
+  border: none;
+  border-radius: 22px;
+  padding: 14px 32px;
+  font-size: 1em;
+  font-weight: 700;
+  cursor: pointer;
+  margin: 20px auto 0 auto !important;
+  transition: background 0.15s, box-shadow 0.15s;
+  box-shadow: 0 2px 8px 0 rgba(40, 75, 168, 0.08);
+  display: block;
+  text-align: center;
+}
+
+button:active, .choice-button:active {
+  background: #19306e;
+}
+button:focus, .choice-button:focus {
+  outline: 2px solid #203e87;
+}
+.choice-button.selected, .choice-button.active {
+  background: #e0e8ff;
+  color: #284ba8;
+  box-shadow: 0 0 0 2px #284ba8;
+}
+input[type="radio"], input[type="checkbox"] {
+  margin-right: 0.8em;
+  accent-color: #284ba8;
+}
+
+section {
+  display: none;
+}
+section.active {
+  display: block;
+  width: 100%;
+}
+
+/* Images dans les sections */
+.question-illustration,
+.main-container img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 12px;
+  margin: 18px 0 26px 0;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Tags/labels */
+.tag {
+  display: inline-block;
+  background: #f0f5ff;
+  color: #284ba8;
+  padding: 2px 12px;
+  border-radius: 10px;
+  font-size: 0.98em;
+  margin: 0 4px;
+}
+
+/* Petits écrans */
+@media (max-width: 400px) {
+  .main-container {
+    padding: 4vw 1vw;
+    font-size: clamp(14px, 5vw, 18px);
+  }
+  h1 { font-size: 1.5em; }
+  h2 { font-size: 1.12em; }
+}
+
+::-webkit-scrollbar {
+  width: 7px;
+  background: #e0e4e8;
+  border-radius: 6px;
+}
+::-webkit-scrollbar-thumb {
+  background: #bfc8d6;
+  border-radius: 6px;
+}
+
+/* Liste de choix de réponses */
+.options-list {
+  margin-bottom: 16px;
+}
+
+.choice-button {
+  margin-bottom: 16px;
+  padding: 16px 20px;
+  display: flex;
+  align-items: center;
+  font-size: 1.07em;
+  background: #f7f9ff;
+  color: #284ba8;
+  border: 2px solid #e3eafe;
+  border-radius: 16px;
+  font-weight: 500;
+  cursor: pointer;
+  box-shadow: none;
+  transition: background 0.13s, border 0.13s, color 0.13s;
+  text-align: center;
+}
+.choice-button.selected, .choice-button.active {
+  background: #dbeaff;
+  color: #19306e;
+  border: 2px solid #284ba8;
+}
+.choice-button input[type="radio"] {
+  accent-color: #284ba8;
+}
+
+@media (max-width: 600px) {
+  .choice-button {
+    font-size: 1em;
+    padding: 14px 12px;
+    border-radius: 13px;
+  }
+}
+
+/* Bloc profil résultat personnalisé */
+#result-section > div {
+  background: #f9fafc;
+  border-radius: 22px;
+  padding: 32px 20px;
+  margin-top: 20px;
+}
+
+.bloc-orange {
+  background: #fff4e6;
+  border-radius: 12px;
+  padding: 18px 18px 12px 18px;
+  margin-bottom: 22px;
+  border: 1.5px solid #ffd2a7;
+}
+
+/* Crédit sous chaque bouton */
+.credit {
+  text-align: center;
+  font-size: 0.92em;
+  color: #6370a4;
+  margin-top: 8px;
+}
+.credit a {
+  color: #284ba8;
+  text-decoration: underline;
+  font-weight: 600;
+}
+
+/* Responsive petites largeurs */
+@media (max-width: 400px) {
+  h1 { font-size: 1.5em; }
+  h2 { font-size: 1.12em; }
+}

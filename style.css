@@ -164,9 +164,10 @@ ul {
   margin-bottom: 1.15em;
 }
 
-/* Liste puces résultats : interligne avant chaque puce (sauf la 1ère) */
-.bloc-orange ul li + li {
-  margin-top: 10px;
+/* Liste puces résultats : interligne avant chaque puce (sauf la 1ère) + PLUS D'ESPACEMENT */
+.bloc-orange ul li + li,
+#result-section ul li + li {
+  margin-top: 30px !important;
 }
 
 /* Interligne après chaque exemple dans les listes de résultats */

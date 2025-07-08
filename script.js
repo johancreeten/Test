@@ -102,7 +102,7 @@ const profils = [
     border: "#c62828",
     explanation: `
       <div style="font-size:2.6em; font-weight:800; margin-bottom:34px; color:#c62828; text-align:center; text-transform:none;">
-        Le consommateur passif
+        Vous êtes un consommateur passif
       </div>
       <div style="font-size:1.16em; margin-bottom:42px; text-align:justify; line-height:1.66;">
         <b>Description :</b><br>
@@ -162,7 +162,7 @@ const profils = [
   border: "#dba800",
   explanation: `
     <div style="font-size:2.6em; font-weight:800; margin-bottom:34px; color:#dba800; text-align:center; text-transform:none;">
-      L’adepte pragmatique
+      Vous êtes un adepte pragmatique
     </div>
     <div style="font-size:1.16em; margin-bottom:42px; text-align:justify; line-height:1.66;">
       <b>Description :</b><br>
@@ -222,7 +222,7 @@ const profils = [
   border: "#0288d1",
   explanation: `
     <div style="font-size:2.6em; font-weight:800; margin-bottom:34px; color:#0288d1; text-align:center; text-transform:none;">
-      Le scribe engagé
+      Vous êtes un scribe engagé
     </div>
     <div style="font-size:1.16em; margin-bottom:42px; text-align:justify; line-height:1.66;">
       <b>Description :</b><br>
@@ -282,7 +282,7 @@ const profils = [
   border: "#21936a",
   explanation: `
     <div style="font-size:2.6em; font-weight:800; margin-bottom:34px; color:#21936a; text-align:center; text-transform:none;">
-      Le penseur critique
+      Vous êtes un penseur critique
     </div>
     <div style="font-size:1.16em; margin-bottom:42px; text-align:justify; line-height:1.66;">
       <b>Description :</b><br>
@@ -362,7 +362,7 @@ const profils = [
   border: "#c2185b",
   explanation: `
     <div style="font-size:2.6em; font-weight:800; margin-bottom:34px; color:#c2185b; text-align:center; text-transform:none;">
-      L'innovateur autonome
+      Vous êtes un innovateur autonome
     </div>
     <div style="font-size:1.16em; margin-bottom:42px; text-align:justify; line-height:1.66;">
       <b>Description :</b><br>
@@ -585,13 +585,10 @@ function renderQuestion(index) {
 }
 
 // === 7. Affichage du résultat ===
-function showResult() {
+unction showResult() {
   window.scrollTo({top: 0, behavior: 'smooth'});
-
-  // Masquer la barre de progression sur la page résultat
-  document.getElementById('progress-bar').style.display = "none";
-
   showSection('result-section');
+  updateProgressBar(questions.length, questions.length, true);
 
   const resultSection = document.getElementById('result-section');
   resultSection.innerHTML = '';
@@ -618,11 +615,11 @@ function showResult() {
   // Score mis en valeur en haut
   const scoreDiv = document.createElement('div');
   scoreDiv.style.textAlign = "center";
-  scoreDiv.style.fontSize = "2.7em";
-  scoreDiv.style.fontWeight = "900";
-  scoreDiv.style.color = profil.border;
+  scoreDiv.style.fontSize = "1.25em";
+  scoreDiv.style.fontWeight = "600";
+  scoreDiv.style.color = "#274a8a";
   scoreDiv.style.marginBottom = "18px";
-  scoreDiv.textContent = `${percentScore} % de maturité à l'IA`;
+  scoreDiv.textContent = `Score de maturité IA : ${percentScore} %`;
   resultSection.appendChild(scoreDiv);
 
   // Bloc explication du profil

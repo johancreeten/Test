@@ -606,7 +606,6 @@ else if (score <= 6) profil = profils[1];
 else if (score <= 10) profil = profils[2];
 else if (score <= 13) profil = profils[3];
 else profil = profils[4];
-});
 
   // Calcul du pourcentage sur 16
   const maxScore = 16;

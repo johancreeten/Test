@@ -585,7 +585,7 @@ function renderQuestion(index) {
 }
 
 // === 7. Affichage du résultat ===
-unction showResult() {
+function showResult() {
   window.scrollTo({top: 0, behavior: 'smooth'});
   showSection('result-section');
   updateProgressBar(questions.length, questions.length, true);

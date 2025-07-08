@@ -1,59 +1,94 @@
 // === 1. Données (questions, profils, etc.) : À reprendre tel quel ===
 const questions = [
   {
-    text: "📄 Vous venez d'utiliser un outil d'IA pour rédiger un résumé détaillé d'un document complexe. Quelques heures plus tard, un collègue vous demande une information clé de ce résumé...",
+    text: "Imaginez que vous venez d'utiliser un outil pour créer un résumé détaillé d'un rapport technique complexe. L'IA a rapidement généré un texte bien structuré et cohérent, incluant divers faits, chiffres et conclusions. Quelques heures plus tard, un collègue vous interpelle et vous demande une information clé spécifique de ce résumé (par exemple, un chiffre précis, une date importante ou une définition technique). Quelle est votre réaction ?",
     img: "IMG/question1.jpg",
     answers: [
-      { text: "Pas de problème ! Vous vous souvenez facilement de la phrase exacte ou de l'information précise, comme si vous l'aviez écrite vous-même.", value: 1 },
-      { text: "Vous demandez un peu de temps car vous avez du mal à vous souvenir des détails exacts et vous auriez besoin de consulter à nouveau le résumé ou l'IA.", value: 0 }
+      { text: "Vous vous souvenez facilement et avec précision de l'information demandée, comme si vous l'aviez vous-même formulée et intégrée profondément dans votre mémoire.", value: 2 },
+      { text: "Vous avez du mal à vous souvenir des détails exacts et ressentez un besoin immédiat de consulter à nouveau le résumé généré par l'IA ou l'outil d'IA lui-même pour retrouver l'information précise.", value: 0 },
+      { text: "Vous vous souvenez des grandes lignes ou du concept général, mais les détails précis (chiffres, noms exacts, dates) vous échappent.", value: 1 },
+      { text: "Vous parvenez à restituer l'information uniquement si vous avez personnellement révisé/édité ou réfléchi dessus, sinon le rappel est difficile.", value: 1 },
+      { text: "Vous réalisez que vous avez trop fait confiance à l'IA, sans engager assez de réflexion critique ou mémorisation active.", value: -1 }
     ]
   },
+  // Q2
   {
-    text: "👩‍🏫 Vous avez créé une présentation avec l'aide d'une IA. Lorsque quelqu'un vous félicite pour votre travail, vous vous demandez à quel point le travail est réellement le vôtre ?",
+    text: "Imaginez que vous venez de créer une présentation importante avec l'aide substantielle d'un outil d'IA. Peu de temps après avoir livré la présentation, votre supérieur vous félicite pour la qualité et l'efficacité du travail. À quel point ressentez-vous que cette présentation est réellement la vôtre ?",
     img: "IMG/question2.jpg",
     answers: [
-      { text: "Non, vous ressentez un fort sentiment d'appropriation et de fierté pour l'ensemble du travail, considérant que l'IA n'était qu'un outil à votre service, votre touche personnelle ayant primé sur l'apport de l'IA.", value: 1 },
-      { text: "Oui, vous avez un sentiment d'appartenance faible, attribuant une part significative, voire la majorité, du travail à l'IA (par exemple, vous pensez « c'est surtout l'IA qui a tout fait, j'ai juste peaufiné »), percevant l'œuvre comme moins originale.", value: 0 }
+      { text: "Vous ressentez une pleine appropriation et une grande fierté. L'IA était un outil, mais vous avez apporté votre touche personnelle et une révision critique approfondie.", value: 2 },
+      { text: "Vous vous sentez principalement propriétaire du travail, mais reconnaissez que l'IA a joué un rôle significatif dans certaines parties peu modifiées.", value: 1 },
+      { text: "Vous avez le sentiment que l'IA a fait une grande partie du travail ; vous auriez besoin de revoir le contenu pour le 'faire entièrement vôtre'.", value: 0 },
+      { text: "Vous attribuez une part significative, voire la majorité, du travail à l'IA, et votre sentiment de fierté est faible.", value: -1 }
     ]
   },
+  // Q3
   {
-    text: "🚨 Vous êtes en train de rédiger un document important et décidez d'utiliser une IA pour générer les premières ébauches ou des sections entières.",
+    text: "Vous allez rédiger un document important et décidez d'utiliser un outil d'IA pour générer les premières ébauches, des sections entières ou des idées. Comment allez-vous vous y prendre ?",
     img: "IMG/question3.jpg",
     answers: [
-      { text: "Votre rôle principal passe de l'exécution de l'écriture à la supervision, à la direction et à l'affinage constant du résultat de l'IA. Par exemple, en posant des questions de clarification, en demandant des reformulations spécifiques, en guidant l'IA vers des sources de données précises.", value: 1 },
-      { text: "Vous laissez l'IA s'occuper de la majeure partie de la rédaction et vous la percevez comme un substitut majeur à votre travail d'exécution. Les activités d'analyse, de synthèse et d'évaluation exigent maintenant moins d'effort grâce à l’IA.", value: 0 }
+      { text: "Je guide activement l'IA, affine ses productions, pose des questions de clarification, ajuste le ton : le contenu doit coller à mes objectifs et exigences de qualité.", value: 2 },
+      { text: "Je laisse l'IA prendre en charge la majeure partie de la rédaction, la considérant comme un substitut efficace pour l'exécution.", value: 0 },
+      { text: "J'utilise l'IA surtout pour générer des idées, plans ou structures, avant de rédiger moi-même le contenu principal.", value: 1 },
+      { text: "Je m'en sers pour rassembler des faits, exemples, résumés, mais je vérifie et croise les sources pour fiabilité.", value: 1 },
+      { text: "Je rédige moi-même le document, puis utilise l'IA pour la correction ou suggestions de style/vocabulaire.", value: 2 },
+      { text: "Je me sers de l'IA pour apprendre comment elle structure ses réponses, afin d'améliorer mes propres compétences pour le futur.", value: 2 }
     ]
   },
+  // Q4
   {
-    text: "🎨 On vous demande de produire une idée particulièrement créative ou innovante, par exemple, un concept pour une nouvelle campagne de publicité.",
+    text: "On vous demande de produire une idée particulièrement créative ou innovante, par exemple, un concept pour une nouvelle campagne de publicité. Comment abordez-vous cette tâche avec l'IA, en tenant compte des compromis entre rapidité, originalité et contrôle créatif ?",
     img: "IMG/question4.jpg",
     answers: [
-      { text: "Vous utilisez l'IA pour générer des idées (par exemple, en demandant à l'IA des slogans publicitaires), ce qui vous permet d’atteindre rapidement le but demandé.", value: 0 },
-      { text: "Vous avez déjà une grande partie du projet en tête et vous demandez à l’IA d’organiser vos idées. Cela vous permet de garder votre idée de départ mais cela vous prend plus de temps.", value: 1 }
+      { text: "Je demande à l'IA de générer plusieurs concepts/slogans, puis je copie rapidement celui qui me paraît le plus pertinent.", value: 0 },
+      { text: "J'utilise l'IA pour obtenir une première série d'idées, puis je les passe au crible pour éviter les clichés ou suggestions trop génériques.", value: 1 },
+      { text: "J'ai déjà des idées claires : je demande à l'IA de structurer/étoffer ou d'explorer des perspectives nouvelles.", value: 2 },
+      { text: "Mon processus créatif principal reste indépendant ; l'IA sert pour valider une idée, générer des données, tester des mots-clés…", value: 2 }
     ]
   },
+  // Q5
   {
-    text: "🤯 Extraordinaire ! L'IA produit un résultat qui correspond parfaitement à ce que vous attendiez pour une tâche, par exemple, une proposition de solution pour un problème récurrent. Vous êtes très satisfait.",
+    text: "L'IA génère un résultat parfaitement aligné avec vos attentes pour une tâche (solution innovante à un problème récurrent, etc.). Quelle est votre réaction principale ?",
     img: "IMG/question5.jpg",
     answers: [
-      { text: "Vous êtes bluffé par la puissance de l’IA, sa fluidité d’interaction et vous vous empressez de montrer aux collègues ce que l’IA a produit comme réponse.", value: 0 },
-      { text: "Vous préférez évaluer le résultat d’abord en le mettant à l’épreuve même si cela prend plus de temps. Sait-on jamais que l’IA se serait trompée. Personne n’est infaillible après tout.", value: 1 }
+      { text: "Je suis bluffé et je partage immédiatement sans vérification : l’IA est tellement puissante que je lui fais confiance d'emblée.", value: -1 },
+      { text: "Je vérifie minutieusement avant d'agir, même si cela prend du temps.", value: 2 },
+      { text: "J'intègre la solution de l'IA puis je l'adapte à ma touche personnelle (style, ton, spécificité, standards…)", value: 1 },
+      { text: "Je l'utilise tel quel par manque de temps, sans réflexion critique (pression, tâche non prioritaire…)", value: 0 }
     ]
   },
+  // Q6
   {
-    text: "🔍 Vous rencontrez un problème d’organisation depuis très longtemps dans le service où vous travaillez et vous décidez de prendre le problème à bras le corps avec l’aide de l’IA.",
+    text: "Vous faites face à un problème d'organisation persistant au sein de votre service. Après plusieurs tentatives infructueuses pour le résoudre, vous décidez d'utiliser une IA générative pour vous aider. Comment abordez-vous la situation ?",
     img: "IMG/question6.jpg",
     answers: [
-      { text: "Vous demandez à l'IA une solution qui soit la plus efficace possible, puis vous vous concentrez sur la manière de l'intégrer directement dans votre processus de travail.", value: 0 },
-      { text: "Vous analysez le problème en profondeur par vous-même, en utilisant l'IA uniquement pour obtenir des perspectives ou des informations complémentaires.", value: 1 }
+      { text: "Je demande à l'IA de fournir directement la solution la plus efficace ; je m’occupe surtout de l'intégration rapide, avec vérification minimale.", value: 0 },
+      { text: "J'utilise l'IA pour générer plusieurs pistes, puis je les modifie et affine pour qu'elles correspondent précisément à nos besoins.", value: 2 },
+      { text: "Je formule des requêtes très précises à l'IA, pour explorer différentes facettes/méthodologies et apprendre à résoudre moi-même.", value: 2 },
+      { text: "Je réserve l'IA à des aspects secondaires ; pour la résolution de fond, je privilégie l'analyse humaine/discussions/expérience.", value: 1 }
     ]
   },
+  // Q7
   {
-    text: "📅 Vous avez une charge de travail très élevée, et l'IA vous permet de générer rapidement des ébauches de documents, vous faisant gagner un temps précieux.",
+    text: "Imaginez que vous êtes sous pression et que vous devez produire rapidement une ébauche de document crucial (propositions clients, etc.) avec une IA générative. Elle vous livre une première version en un temps record. Comment utilisez-vous principalement ce gain de temps ?",
     img: "IMG/question7.jpg",
     answers: [
-      { text: "Vous utilisez le temps gagné pour une réflexion sur d'autres aspects du projet et pour vous assurer de la qualité supérieure du travail.", value: 1 },
-      { text: "Vous appréciez le gain de temps et vous vous concentrez sur l'achèvement rapide de la tâche, sans nécessairement approfondir d'autres aspects.", value: 0 }
+      { text: "Je consacre ce temps à approfondir la stratégie du document, à rechercher des infos complémentaires, ou à la révision pour une qualité exceptionnelle.", value: 2 },
+      { text: "J’apprécie le temps gagné et j'avance immédiatement sur la prochaine tâche dès que l’ébauche IA est acceptable.", value: 0 },
+      { text: "Je consacre ce temps à la vérification, la validation, la recherche d'absence de biais, recoupement avec d'autres sources.", value: 1 },
+      { text: "J’utilise la base IA pour développer mes propres idées et compétences, dans le but de réduire ma dépendance à l’IA.", value: 1 }
+    ]
+  },
+  // Q8
+  {
+    text: "Vous travaillez pour un service RH et votre entreprise vous demande de traiter des centaines de candidatures pour un poste ouvert. Comment l’IA pourrait vous aider dans cette tâche ?",
+    img: "IMG/question8.jpg",
+    answers: [
+      { text: "Je confierais entièrement à l’IA la gestion complète des candidatures, car l’automatisation totale est très pratique.", value: 0 },
+      { text: "L’IA vérifie rapidement si les candidatures répondent aux critères, mais je réalise ensuite un examen approfondi et humain.", value: 1 },
+      { text: "L’IA extrait automatiquement les informations essentielles, mais je reste vigilant sur la confidentialité et les biais.", value: 2 },
+      { text: "J’utiliserais l’IA pour trier les candidatures et sélectionner les meilleures, même si j’admets une perte de finesse humaine.", value: 0 },
+      { text: "L’IA effectue un premier tri objectif (diplômes, compétences…), en respectant strictement la confidentialité des données.", value: 2 }
     ]
   }
 ];

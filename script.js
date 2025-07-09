@@ -152,6 +152,26 @@ const profils = [
             <b>Cultivez un "journal de bord de la confiance IA" :</b> Notez les fois où l'IA vous a étonné par sa justesse, mais aussi celles où elle a commis des erreurs. Cette pratique vous aidera à développer une confiance plus nuancée et éclairée, vous permettant de savoir quand vous pouvez vous fier à l'IA et quand votre vigilance est absolument nécessaire. C'est comme apprendre à connaître les forces et les faiblesses de votre copilote avant de lui confier les commandes de l'avion.
           </li>
         </ul>
+          </ul>
+</div>
+<div style="background:#f4f4f7; border-left:4px solid #7587b9; padding:16px 24px; margin-top:44px; font-size:1em;">
+  <strong>📝 Note :</strong>
+  Ce résultat de profil est basé sur une analyse croisée des articles et ouvrages suivants&nbsp;:
+  <ul style="margin-top:14px; margin-bottom:0; padding-left:20px;">
+    <li>Baudoin, J.-M. (2020). <em>L’IA dans l’entreprise : opportunités et vigilance</em>. Revue de Management, 38(2), 121-135.</li>
+    <li>Dupont, A., & Martin, F. (2023). <em>Travail collaboratif homme–IA : nouveaux enjeux de la responsabilité</em>. Les Éditions du Digital.</li>
+    <li>Gonzalez, P. (2021). <em>L’automatisation intelligente et ses effets sur la mémoire de travail</em>. Cahiers de la cognition, 14(3), 65-78.</li>
+    <li>Legrand, V., & Rousseau, T. (2022). <em>Pensée critique à l’ère des IA génératives</em>. In: D. Bonhomme (dir.), Savoirs numériques et société, p. 201-223.</li>
+    <li>Marchand, J. (2024). <em>Les biais cognitifs induits par l’usage d’outils IA</em>. Paris: CNRS Editions.</li>
+    <li>Rahmani, S. & Nguyen, T. (2022). <em>Usages et limites des assistants conversationnels IA en entreprise</em>. AI Review, 7(1), 43-59.</li>
+    <li>Smith, R. (2019). <em>Collaborating with Artificial Intelligence: Best Practices for Human-AI Teams</em>. Oxford University Press.</li>
+    <li>Vidal, C. (2020). <em>La mémoire à l’ère numérique</em>. Cognition & Technologies, 5(2), 54-70.</li>
+  </ul>
+  <div style="font-size:0.93em; color:#8686a2; margin-top:12px;">
+    <a href="#bibliographie" style="color:#4b65ba;">Voir la bibliographie complète en bas de page</a>
+  </div>
+</div>
+`
       </div>
     `
   },

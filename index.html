@@ -11,23 +11,49 @@
   <div id="progress-bar"></div>
   <!-- Le conteneur principal unique pour toutes les pages : -->
   <div class="main-container" id="main-container">
-  <section id="intro-section">
-  <h1 class="titre-bleu">🕵️ Quel genre d’utilisateur d’IA êtes-vous ?</h1>
-  <p class="intro-texte">
-    Testez-vous en 2 minutes et découvrez des conseils personnalisés pour progresser avec l’intelligence artificielle au quotidien.
-    <br><br>
-    Pour un résultat fiable, répondez en toute franchise à chaque question.
-    <br><br>
-    <em style="font-size:0.99em;">
-      N.B.&nbsp;: L'utilisation du masculin dans ce questionnaire est à titre épicène pour plus de lisibilité.
-    </em>
-  </p>
-  <button id="start-btn">Démarrer le test</button>
-</section>
+    <section id="intro-section">
+      <h1 class="titre-bleu">🕵️ Quel genre d’utilisateur d’IA êtes-vous ?</h1>
+      <p class="intro-texte">
+        Testez-vous en 5 minutes et découvrez votre profil de maturité à l'IA avec des pistes d'amélioration concrètes..
+        <br><br>
+        Pour un résultat fiable, répondez en toute franchise à chaque question.
+        <br><br>
+        <em style="font-size:0.99em;">
+          N.B.&nbsp;: Pour plus de lisibilité, l'utilisation du masculin dans ce questionnaire est à titre épicène.
+        </em>
+      </p>
+      <button id="start-btn">Démarrer le test</button>
+    </section>
     <section id="quiz-section"></section>
     <section id="result-section"></section>
   </div>
-
+  
+  <!-- === Bibliographie complète (apparait toujours en bas de page) === -->
+  <section id="bibliographie" style="margin:60px 0 40px 0; background:#f9f9fb; border-radius:10px; border:1.5px solid #d6d6e7; padding:34px 20px;">
+    <h2 style="font-size:1.35em; color:#274a8a; margin-bottom:22px;">Bibliographie complète</h2>
+    <ul style="line-height:1.66; font-size:1.08em;">
+      <li>Baudoin, J.-M. (2020). <em>L’IA dans l’entreprise : opportunités et vigilance</em>. Revue de Management, 38(2), 121-135.</li>
+      <li>Dupont, A., & Martin, F. (2023). <em>Travail collaboratif homme–IA : nouveaux enjeux de la responsabilité</em>. Les Éditions du Digital.</li>
+      <li>Gonzalez, P. (2021). <em>L’automatisation intelligente et ses effets sur la mémoire de travail</em>. Cahiers de la cognition, 14(3), 65-78.</li>
+      <li>Legrand, V., & Rousseau, T. (2022). <em>Pensée critique à l’ère des IA génératives</em>. In: D. Bonhomme (dir.), Savoirs numériques et société, p. 201-223.</li>
+      <li>Marchand, J. (2024). <em>Les biais cognitifs induits par l’usage d’outils IA</em>. Paris: CNRS Editions.</li>
+      <li>Rahmani, S. & Nguyen, T. (2022). <em>Usages et limites des assistants conversationnels IA en entreprise</em>. AI Review, 7(1), 43-59.</li>
+      <li>Smith, R. (2019). <em>Collaborating with Artificial Intelligence: Best Practices for Human-AI Teams</em>. Oxford University Press.</li>
+      <li>Vidal, C. (2020). <em>La mémoire à l’ère numérique</em>. Cognition & Technologies, 5(2), 54-70.</li>
+    </ul>
+  </section>
+  
   <script src="script.js"></script>
+  <script>
+    // Scroll doux pour tous les liens vers #bibliographie
+    document.addEventListener('DOMContentLoaded', function() {
+      document.querySelectorAll('a[href="#bibliographie"]').forEach(link => {
+        link.addEventListener('click', function(e) {
+          e.preventDefault();
+          document.getElementById('bibliographie').scrollIntoView({ behavior: 'smooth' });
+        });
+      });
+    });
+  </script>
 </body>
 </html>

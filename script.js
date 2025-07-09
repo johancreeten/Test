@@ -152,7 +152,7 @@ const profils = [
             <b>Cultivez un "journal de bord de la confiance IA" :</b> Notez les fois où l'IA vous a étonné par sa justesse, mais aussi celles où elle a commis des erreurs. Cette pratique vous aidera à développer une confiance plus nuancée et éclairée, vous permettant de savoir quand vous pouvez vous fier à l'IA et quand votre vigilance est absolument nécessaire. C'est comme apprendre à connaître les forces et les faiblesses de votre copilote avant de lui confier les commandes de l'avion.
           </li>
         </ul>
-          </ul>
+
 </div>
 <div style="background:#f4f4f7; border-left:4px solid #7587b9; padding:16px 24px; margin-top:44px; font-size:1em;">
   <strong>📝 Note :</strong>
@@ -171,9 +171,7 @@ const profils = [
     <a href="#bibliographie" style="color:#4b65ba;">Voir la bibliographie complète en bas de page</a>
   </div>
 </div>
-`
-      </div>
-    `
+`     
   },
   // 4-6 points
   {
@@ -248,11 +246,9 @@ const profils = [
   </ul>
   <div style="font-size:0.93em; color:#8686a2; margin-top:12px;">
     <a href="#bibliographie" style="color:#4b65ba;">Voir la bibliographie complète en bas de page</a>
-  </div>
+   </div>
 </div>
-`
-      </div>
-    `
+`     
   },
   // 7-10 points
   {
@@ -327,11 +323,9 @@ const profils = [
   </ul>
   <div style="font-size:0.93em; color:#8686a2; margin-top:12px;">
     <a href="#bibliographie" style="color:#4b65ba;">Voir la bibliographie complète en bas de page</a>
-  </div>
+   </div>
 </div>
-`
-      </div>
-    `
+`     
   },
   // 11-13 points
   {
@@ -410,9 +404,10 @@ const profils = [
           ➡️ À chaque nouveau projet, planifiez un premier livrable “test” à une date précise, puis inscrivez dans le calendrier la séance de retour critique deux semaines plus tard pour en tirer des améliorations concrètes.
         </li>
       </ul>
-    </div>
-  `
-},
+     </div>
+</div>
+`     
+  },
   // 14-16 points
   {
   title: "L'innovateur autonome",
@@ -507,11 +502,9 @@ const profils = [
   </ul>
   <div style="font-size:0.93em; color:#8686a2; margin-top:12px;">
     <a href="#bibliographie" style="color:#4b65ba;">Voir la bibliographie complète en bas de page</a>
-  </div>
+   </div>
 </div>
-`
-      </div>
-    `
+`     
   },
 ];
 

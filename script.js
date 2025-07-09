@@ -513,6 +513,7 @@ const profils = [
       </div>
     `
   },
+];
 
 // === 2. Variables d'état ===
 let currentQuestion = 0;

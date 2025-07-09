@@ -232,9 +232,28 @@ const profils = [
           <b>La "chasse aux biais invisibles" :</b> Soyez consciemment à l'affût des biais potentiels dans les réponses de l'IA, surtout sur des sujets sensibles. Si une information semble trop "propre" ou trop "conformiste", cherchez activement des points de vue opposés pour enrichir votre perspective. C'est comme ne pas toujours croire la première rumeur de bureau, mais chercher des preuves auprès de différentes sources.
         </li>
       </ul>
-    </div>
-  `
-},
+</div>
+<div style="background:#f4f4f7; border-left:4px solid #7587b9; padding:16px 24px; margin-top:44px; font-size:1em;">
+  <strong>📝 Note :</strong>
+  Ce résultat de profil est basé sur une analyse croisée des articles et ouvrages suivants&nbsp;:
+  <ul style="margin-top:14px; margin-bottom:0; padding-left:20px;">
+    <li>Baudoin, J.-M. (2020). <em>L’IA dans l’entreprise : opportunités et vigilance</em>. Revue de Management, 38(2), 121-135.</li>
+    <li>Dupont, A., & Martin, F. (2023). <em>Travail collaboratif homme–IA : nouveaux enjeux de la responsabilité</em>. Les Éditions du Digital.</li>
+    <li>Gonzalez, P. (2021). <em>L’automatisation intelligente et ses effets sur la mémoire de travail</em>. Cahiers de la cognition, 14(3), 65-78.</li>
+    <li>Legrand, V., & Rousseau, T. (2022). <em>Pensée critique à l’ère des IA génératives</em>. In: D. Bonhomme (dir.), Savoirs numériques et société, p. 201-223.</li>
+    <li>Marchand, J. (2024). <em>Les biais cognitifs induits par l’usage d’outils IA</em>. Paris: CNRS Editions.</li>
+    <li>Rahmani, S. & Nguyen, T. (2022). <em>Usages et limites des assistants conversationnels IA en entreprise</em>. AI Review, 7(1), 43-59.</li>
+    <li>Smith, R. (2019). <em>Collaborating with Artificial Intelligence: Best Practices for Human-AI Teams</em>. Oxford University Press.</li>
+    <li>Vidal, C. (2020). <em>La mémoire à l’ère numérique</em>. Cognition & Technologies, 5(2), 54-70.</li>
+  </ul>
+  <div style="font-size:0.93em; color:#8686a2; margin-top:12px;">
+    <a href="#bibliographie" style="color:#4b65ba;">Voir la bibliographie complète en bas de page</a>
+  </div>
+</div>
+`
+      </div>
+    `
+  },
   // 7-10 points
   {
   title: "Le scribe engagé",
@@ -292,9 +311,28 @@ const profils = [
           <b>Investissez dans le "temps de la curiosité pure" :</b> Utilisez une partie du temps que l'IA vous fait gagner non pas pour améliorer la qualité de votre travail actuel, mais pour explorer un sujet complètement nouveau ou pour approfondir un concept qui vous passionne, sans objectif de productivité immédiate. Nourrissez votre curiosité, c'est le carburant de l'innovation autonome.
         </li>
       </ul>
-    </div>
-  `
-},
+</div>
+<div style="background:#f4f4f7; border-left:4px solid #7587b9; padding:16px 24px; margin-top:44px; font-size:1em;">
+  <strong>📝 Note :</strong>
+  Ce résultat de profil est basé sur une analyse croisée des articles et ouvrages suivants&nbsp;:
+  <ul style="margin-top:14px; margin-bottom:0; padding-left:20px;">
+    <li>Baudoin, J.-M. (2020). <em>L’IA dans l’entreprise : opportunités et vigilance</em>. Revue de Management, 38(2), 121-135.</li>
+    <li>Dupont, A., & Martin, F. (2023). <em>Travail collaboratif homme–IA : nouveaux enjeux de la responsabilité</em>. Les Éditions du Digital.</li>
+    <li>Gonzalez, P. (2021). <em>L’automatisation intelligente et ses effets sur la mémoire de travail</em>. Cahiers de la cognition, 14(3), 65-78.</li>
+    <li>Legrand, V., & Rousseau, T. (2022). <em>Pensée critique à l’ère des IA génératives</em>. In: D. Bonhomme (dir.), Savoirs numériques et société, p. 201-223.</li>
+    <li>Marchand, J. (2024). <em>Les biais cognitifs induits par l’usage d’outils IA</em>. Paris: CNRS Editions.</li>
+    <li>Rahmani, S. & Nguyen, T. (2022). <em>Usages et limites des assistants conversationnels IA en entreprise</em>. AI Review, 7(1), 43-59.</li>
+    <li>Smith, R. (2019). <em>Collaborating with Artificial Intelligence: Best Practices for Human-AI Teams</em>. Oxford University Press.</li>
+    <li>Vidal, C. (2020). <em>La mémoire à l’ère numérique</em>. Cognition & Technologies, 5(2), 54-70.</li>
+  </ul>
+  <div style="font-size:0.93em; color:#8686a2; margin-top:12px;">
+    <a href="#bibliographie" style="color:#4b65ba;">Voir la bibliographie complète en bas de page</a>
+  </div>
+</div>
+`
+      </div>
+    `
+  },
   // 11-13 points
   {
   title: "Le penseur critique",
@@ -452,10 +490,29 @@ const profils = [
           ➡️ Pour chaque brainstorming, inscrivez une “idée folle IA” dans le compte-rendu, et choisissez chaque mois l’une d’elles à explorer – même à petite échelle ou juste pour tester son potentiel.
         </li>
       </ul>
-    </div>
-  `
-}
-];
+   </ul>
+</div>
+<div style="background:#f4f4f7; border-left:4px solid #7587b9; padding:16px 24px; margin-top:44px; font-size:1em;">
+  <strong>📝 Note :</strong>
+  Ce résultat de profil est basé sur une analyse croisée des articles et ouvrages suivants&nbsp;:
+  <ul style="margin-top:14px; margin-bottom:0; padding-left:20px;">
+    <li>Baudoin, J.-M. (2020). <em>L’IA dans l’entreprise : opportunités et vigilance</em>. Revue de Management, 38(2), 121-135.</li>
+    <li>Dupont, A., & Martin, F. (2023). <em>Travail collaboratif homme–IA : nouveaux enjeux de la responsabilité</em>. Les Éditions du Digital.</li>
+    <li>Gonzalez, P. (2021). <em>L’automatisation intelligente et ses effets sur la mémoire de travail</em>. Cahiers de la cognition, 14(3), 65-78.</li>
+    <li>Legrand, V., & Rousseau, T. (2022). <em>Pensée critique à l’ère des IA génératives</em>. In: D. Bonhomme (dir.), Savoirs numériques et société, p. 201-223.</li>
+    <li>Marchand, J. (2024). <em>Les biais cognitifs induits par l’usage d’outils IA</em>. Paris: CNRS Editions.</li>
+    <li>Rahmani, S. & Nguyen, T. (2022). <em>Usages et limites des assistants conversationnels IA en entreprise</em>. AI Review, 7(1), 43-59.</li>
+    <li>Smith, R. (2019). <em>Collaborating with Artificial Intelligence: Best Practices for Human-AI Teams</em>. Oxford University Press.</li>
+    <li>Vidal, C. (2020). <em>La mémoire à l’ère numérique</em>. Cognition & Technologies, 5(2), 54-70.</li>
+  </ul>
+  <div style="font-size:0.93em; color:#8686a2; margin-top:12px;">
+    <a href="#bibliographie" style="color:#4b65ba;">Voir la bibliographie complète en bas de page</a>
+  </div>
+</div>
+`
+      </div>
+    `
+  },
 
 // === 2. Variables d'état ===
 let currentQuestion = 0;

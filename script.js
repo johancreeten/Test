@@ -158,14 +158,15 @@ const profils = [
   <strong>📝 Note :</strong>
   Ce résultat de profil est basé sur une analyse croisée des articles et ouvrages suivants&nbsp;:
   <ul style="margin-top:14px; margin-bottom:0; padding-left:20px;">
-    <li>Baudoin, J.-M. (2020). <em>L’IA dans l’entreprise : opportunités et vigilance</em>. Revue de Management, 38(2), 121-135.</li>
-    <li>Dupont, A., & Martin, F. (2023). <em>Travail collaboratif homme–IA : nouveaux enjeux de la responsabilité</em>. Les Éditions du Digital.</li>
-    <li>Gonzalez, P. (2021). <em>L’automatisation intelligente et ses effets sur la mémoire de travail</em>. Cahiers de la cognition, 14(3), 65-78.</li>
-    <li>Legrand, V., & Rousseau, T. (2022). <em>Pensée critique à l’ère des IA génératives</em>. In: D. Bonhomme (dir.), Savoirs numériques et société, p. 201-223.</li>
-    <li>Marchand, J. (2024). <em>Les biais cognitifs induits par l’usage d’outils IA</em>. Paris: CNRS Editions.</li>
-    <li>Rahmani, S. & Nguyen, T. (2022). <em>Usages et limites des assistants conversationnels IA en entreprise</em>. AI Review, 7(1), 43-59.</li>
-    <li>Smith, R. (2019). <em>Collaborating with Artificial Intelligence: Best Practices for Human-AI Teams</em>. Oxford University Press.</li>
-    <li>Vidal, C. (2020). <em>La mémoire à l’ère numérique</em>. Cognition & Technologies, 5(2), 54-70.</li>
+    <li>Dadeshkeliani, B. (2025). <em>The Psychology of Artificial Intelligence: Analyzing Cognitive and Emotional Characteristics, Human-Ai Interaction, and Ethical Considerations.</em> International Journal of Social Science and Human Research, 08(03), 1508–1514. DOI : 10.47191/ijsshr/v8-i3-23.</li>
+    <li>Jose, B., Cherian, J., Verghis, A. M., Varghise, S. M., S, M., & Joseph, S. (2025). <em>The cognitive paradox of AI in education: between enhancement and erosion.</em> Frontiers in Psychology, 16(1550621). DOI : 10.3389/fpsyg.2025.1550621.</li>
+    <li>Kosmyna, N., Hauptmann, E., Yuan, Y. T., Situ, J., Liao, X. H., Beresnitzky, A. V., Braunstein, I., & Maes, P. (2025). <em>Your Brain on ChatGPT: Accumulation of Cognitive Debt when Using an AI Assistant for Essay Writing Task.</em> (Document distribué sous licence CC BY-NC-SA).</li>
+    <li>Lee, H. P., Sarkar, A., Tankelevitch, L., Drosos, I., Rintel, S., Banks, R., & Wilson, N. (2025). <em>The Impact of Generative AI on Critical Thinking: Self-Reported Reductions in Cognitive Effort and Confidence Effects From a Survey of Knowledge Workers.</em> Dans CHI Conference on Human Factors in Computing Systems (CHI ’25) (p. 23 pages). ACM. DOI : 10.1145/3706598.3713778.</li>
+    <li>Naveenraj, X., Biswas, R., Choudhary, S., & Kumari, S. (2025). <em>AI and Social Interactions: How Artificial Intelligence is Shaping Human Psychology and Social Dynamics.</em> Journal of Informatics Education and Research, 5(2). ISSN: 1526-4726.</li>
+    <li>Sandford, A., Mulligan, B., Gittens, E., Norris, M., & Fernandes, M. (2024). <em>ARTIFICIAL INTELLIGENCE AND PSYCHOLOGY BRIEFING PAPER.</em> Canadian Psychological Association (CPA).</li>
+    <li>Szmyd, K., & Mitera, E. (2024). <em>The Impact of Artificial Intelligence on the Development of Critical Thinking Skills in Students.</em> European Research Studies Journal, XXVII(2), 1022–1039.</li>
+    <li>van Rooij, I., Guest, O., Adolfi, F., de Haan, R., Kolokolova, A., & Rich, P. (2024). <em>Reclaiming AI as a theoretical tool for cognitive science.</em> Computational Brain & Behavior, 7, 616–636.</li>
+    <li>Zao-Sanders, M. (2025). <em>The 2025 Top-100 Gen AI Use Case Report.</em> (Document en libre accès distribué sous licence Creative Commons Attribution).</li>
   </ul>
   <div style="font-size:0.93em; color:#8686a2; margin-top:12px;">
   </div>
@@ -234,14 +235,15 @@ const profils = [
   <strong>📝 Note :</strong>
   Ce résultat de profil est basé sur une analyse croisée des articles et ouvrages suivants&nbsp;:
   <ul style="margin-top:14px; margin-bottom:0; padding-left:20px;">
-    <li>Baudoin, J.-M. (2020). <em>L’IA dans l’entreprise : opportunités et vigilance</em>. Revue de Management, 38(2), 121-135.</li>
-    <li>Dupont, A., & Martin, F. (2023). <em>Travail collaboratif homme–IA : nouveaux enjeux de la responsabilité</em>. Les Éditions du Digital.</li>
-    <li>Gonzalez, P. (2021). <em>L’automatisation intelligente et ses effets sur la mémoire de travail</em>. Cahiers de la cognition, 14(3), 65-78.</li>
-    <li>Legrand, V., & Rousseau, T. (2022). <em>Pensée critique à l’ère des IA génératives</em>. In: D. Bonhomme (dir.), Savoirs numériques et société, p. 201-223.</li>
-    <li>Marchand, J. (2024). <em>Les biais cognitifs induits par l’usage d’outils IA</em>. Paris: CNRS Editions.</li>
-    <li>Rahmani, S. & Nguyen, T. (2022). <em>Usages et limites des assistants conversationnels IA en entreprise</em>. AI Review, 7(1), 43-59.</li>
-    <li>Smith, R. (2019). <em>Collaborating with Artificial Intelligence: Best Practices for Human-AI Teams</em>. Oxford University Press.</li>
-    <li>Vidal, C. (2020). <em>La mémoire à l’ère numérique</em>. Cognition & Technologies, 5(2), 54-70.</li>
+    <li>Dadeshkeliani, B. (2025). <em>The Psychology of Artificial Intelligence: Analyzing Cognitive and Emotional Characteristics, Human-Ai Interaction, and Ethical Considerations.</em> International Journal of Social Science and Human Research, 08(03), 1508–1514. DOI : 10.47191/ijsshr/v8-i3-23.</li>
+    <li>Jose, B., Cherian, J., Verghis, A. M., Varghise, S. M., S, M., & Joseph, S. (2025). <em>The cognitive paradox of AI in education: between enhancement and erosion.</em> Frontiers in Psychology, 16(1550621). DOI : 10.3389/fpsyg.2025.1550621.</li>
+    <li>Kosmyna, N., Hauptmann, E., Yuan, Y. T., Situ, J., Liao, X. H., Beresnitzky, A. V., Braunstein, I., & Maes, P. (2025). <em>Your Brain on ChatGPT: Accumulation of Cognitive Debt when Using an AI Assistant for Essay Writing Task.</em> (Document distribué sous licence CC BY-NC-SA).</li>
+    <li>Lee, H. P., Sarkar, A., Tankelevitch, L., Drosos, I., Rintel, S., Banks, R., & Wilson, N. (2025). <em>The Impact of Generative AI on Critical Thinking: Self-Reported Reductions in Cognitive Effort and Confidence Effects From a Survey of Knowledge Workers.</em> Dans CHI Conference on Human Factors in Computing Systems (CHI ’25) (p. 23 pages). ACM. DOI : 10.1145/3706598.3713778.</li>
+    <li>Naveenraj, X., Biswas, R., Choudhary, S., & Kumari, S. (2025). <em>AI and Social Interactions: How Artificial Intelligence is Shaping Human Psychology and Social Dynamics.</em> Journal of Informatics Education and Research, 5(2). ISSN: 1526-4726.</li>
+    <li>Sandford, A., Mulligan, B., Gittens, E., Norris, M., & Fernandes, M. (2024). <em>ARTIFICIAL INTELLIGENCE AND PSYCHOLOGY BRIEFING PAPER.</em> Canadian Psychological Association (CPA).</li>
+    <li>Szmyd, K., & Mitera, E. (2024). <em>The Impact of Artificial Intelligence on the Development of Critical Thinking Skills in Students.</em> European Research Studies Journal, XXVII(2), 1022–1039.</li>
+    <li>van Rooij, I., Guest, O., Adolfi, F., de Haan, R., Kolokolova, A., & Rich, P. (2024). <em>Reclaiming AI as a theoretical tool for cognitive science.</em> Computational Brain & Behavior, 7, 616–636.</li>
+    <li>Zao-Sanders, M. (2025). <em>The 2025 Top-100 Gen AI Use Case Report.</em> (Document en libre accès distribué sous licence Creative Commons Attribution).</li>
   </ul>
   <div style="font-size:0.93em; color:#8686a2; margin-top:12px;">
    </div>
@@ -310,14 +312,15 @@ const profils = [
   <strong>📝 Note :</strong>
   Ce résultat de profil est basé sur une analyse croisée des articles et ouvrages suivants&nbsp;:
   <ul style="margin-top:14px; margin-bottom:0; padding-left:20px;">
-    <li>Baudoin, J.-M. (2020). <em>L’IA dans l’entreprise : opportunités et vigilance</em>. Revue de Management, 38(2), 121-135.</li>
-    <li>Dupont, A., & Martin, F. (2023). <em>Travail collaboratif homme–IA : nouveaux enjeux de la responsabilité</em>. Les Éditions du Digital.</li>
-    <li>Gonzalez, P. (2021). <em>L’automatisation intelligente et ses effets sur la mémoire de travail</em>. Cahiers de la cognition, 14(3), 65-78.</li>
-    <li>Legrand, V., & Rousseau, T. (2022). <em>Pensée critique à l’ère des IA génératives</em>. In: D. Bonhomme (dir.), Savoirs numériques et société, p. 201-223.</li>
-    <li>Marchand, J. (2024). <em>Les biais cognitifs induits par l’usage d’outils IA</em>. Paris: CNRS Editions.</li>
-    <li>Rahmani, S. & Nguyen, T. (2022). <em>Usages et limites des assistants conversationnels IA en entreprise</em>. AI Review, 7(1), 43-59.</li>
-    <li>Smith, R. (2019). <em>Collaborating with Artificial Intelligence: Best Practices for Human-AI Teams</em>. Oxford University Press.</li>
-    <li>Vidal, C. (2020). <em>La mémoire à l’ère numérique</em>. Cognition & Technologies, 5(2), 54-70.</li>
+    <li>Dadeshkeliani, B. (2025). <em>The Psychology of Artificial Intelligence: Analyzing Cognitive and Emotional Characteristics, Human-Ai Interaction, and Ethical Considerations.</em> International Journal of Social Science and Human Research, 08(03), 1508–1514. DOI : 10.47191/ijsshr/v8-i3-23.</li>
+    <li>Jose, B., Cherian, J., Verghis, A. M., Varghise, S. M., S, M., & Joseph, S. (2025). <em>The cognitive paradox of AI in education: between enhancement and erosion.</em> Frontiers in Psychology, 16(1550621). DOI : 10.3389/fpsyg.2025.1550621.</li>
+    <li>Kosmyna, N., Hauptmann, E., Yuan, Y. T., Situ, J., Liao, X. H., Beresnitzky, A. V., Braunstein, I., & Maes, P. (2025). <em>Your Brain on ChatGPT: Accumulation of Cognitive Debt when Using an AI Assistant for Essay Writing Task.</em> (Document distribué sous licence CC BY-NC-SA).</li>
+    <li>Lee, H. P., Sarkar, A., Tankelevitch, L., Drosos, I., Rintel, S., Banks, R., & Wilson, N. (2025). <em>The Impact of Generative AI on Critical Thinking: Self-Reported Reductions in Cognitive Effort and Confidence Effects From a Survey of Knowledge Workers.</em> Dans CHI Conference on Human Factors in Computing Systems (CHI ’25) (p. 23 pages). ACM. DOI : 10.1145/3706598.3713778.</li>
+    <li>Naveenraj, X., Biswas, R., Choudhary, S., & Kumari, S. (2025). <em>AI and Social Interactions: How Artificial Intelligence is Shaping Human Psychology and Social Dynamics.</em> Journal of Informatics Education and Research, 5(2). ISSN: 1526-4726.</li>
+    <li>Sandford, A., Mulligan, B., Gittens, E., Norris, M., & Fernandes, M. (2024). <em>ARTIFICIAL INTELLIGENCE AND PSYCHOLOGY BRIEFING PAPER.</em> Canadian Psychological Association (CPA).</li>
+    <li>Szmyd, K., & Mitera, E. (2024). <em>The Impact of Artificial Intelligence on the Development of Critical Thinking Skills in Students.</em> European Research Studies Journal, XXVII(2), 1022–1039.</li>
+    <li>van Rooij, I., Guest, O., Adolfi, F., de Haan, R., Kolokolova, A., & Rich, P. (2024). <em>Reclaiming AI as a theoretical tool for cognitive science.</em> Computational Brain & Behavior, 7, 616–636.</li>
+    <li>Zao-Sanders, M. (2025). <em>The 2025 Top-100 Gen AI Use Case Report.</em> (Document en libre accès distribué sous licence Creative Commons Attribution).</li>
   </ul>
   <div style="font-size:0.93em; color:#8686a2; margin-top:12px;">
    </div>
@@ -406,14 +409,15 @@ const profils = [
   <strong>📝 Note :</strong>
   Ce résultat de profil est basé sur une analyse croisée des articles et ouvrages suivants&nbsp;:
   <ul style="margin-top:14px; margin-bottom:0; padding-left:20px;">
-    <li>Baudoin, J.-M. (2020). <em>L’IA dans l’entreprise : opportunités et vigilance</em>. Revue de Management, 38(2), 121-135.</li>
-    <li>Dupont, A., & Martin, F. (2023). <em>Travail collaboratif homme–IA : nouveaux enjeux de la responsabilité</em>. Les Éditions du Digital.</li>
-    <li>Gonzalez, P. (2021). <em>L’automatisation intelligente et ses effets sur la mémoire de travail</em>. Cahiers de la cognition, 14(3), 65-78.</li>
-    <li>Legrand, V., & Rousseau, T. (2022). <em>Pensée critique à l’ère des IA génératives</em>. In: D. Bonhomme (dir.), Savoirs numériques et société, p. 201-223.</li>
-    <li>Marchand, J. (2024). <em>Les biais cognitifs induits par l’usage d’outils IA</em>. Paris: CNRS Editions.</li>
-    <li>Rahmani, S. & Nguyen, T. (2022). <em>Usages et limites des assistants conversationnels IA en entreprise</em>. AI Review, 7(1), 43-59.</li>
-    <li>Smith, R. (2019). <em>Collaborating with Artificial Intelligence: Best Practices for Human-AI Teams</em>. Oxford University Press.</li>
-    <li>Vidal, C. (2020). <em>La mémoire à l’ère numérique</em>. Cognition & Technologies, 5(2), 54-70.</li>
+    <li>Dadeshkeliani, B. (2025). <em>The Psychology of Artificial Intelligence: Analyzing Cognitive and Emotional Characteristics, Human-Ai Interaction, and Ethical Considerations.</em> International Journal of Social Science and Human Research, 08(03), 1508–1514. DOI : 10.47191/ijsshr/v8-i3-23.</li>
+    <li>Jose, B., Cherian, J., Verghis, A. M., Varghise, S. M., S, M., & Joseph, S. (2025). <em>The cognitive paradox of AI in education: between enhancement and erosion.</em> Frontiers in Psychology, 16(1550621). DOI : 10.3389/fpsyg.2025.1550621.</li>
+    <li>Kosmyna, N., Hauptmann, E., Yuan, Y. T., Situ, J., Liao, X. H., Beresnitzky, A. V., Braunstein, I., & Maes, P. (2025). <em>Your Brain on ChatGPT: Accumulation of Cognitive Debt when Using an AI Assistant for Essay Writing Task.</em> (Document distribué sous licence CC BY-NC-SA).</li>
+    <li>Lee, H. P., Sarkar, A., Tankelevitch, L., Drosos, I., Rintel, S., Banks, R., & Wilson, N. (2025). <em>The Impact of Generative AI on Critical Thinking: Self-Reported Reductions in Cognitive Effort and Confidence Effects From a Survey of Knowledge Workers.</em> Dans CHI Conference on Human Factors in Computing Systems (CHI ’25) (p. 23 pages). ACM. DOI : 10.1145/3706598.3713778.</li>
+    <li>Naveenraj, X., Biswas, R., Choudhary, S., & Kumari, S. (2025). <em>AI and Social Interactions: How Artificial Intelligence is Shaping Human Psychology and Social Dynamics.</em> Journal of Informatics Education and Research, 5(2). ISSN: 1526-4726.</li>
+    <li>Sandford, A., Mulligan, B., Gittens, E., Norris, M., & Fernandes, M. (2024). <em>ARTIFICIAL INTELLIGENCE AND PSYCHOLOGY BRIEFING PAPER.</em> Canadian Psychological Association (CPA).</li>
+    <li>Szmyd, K., & Mitera, E. (2024). <em>The Impact of Artificial Intelligence on the Development of Critical Thinking Skills in Students.</em> European Research Studies Journal, XXVII(2), 1022–1039.</li>
+    <li>van Rooij, I., Guest, O., Adolfi, F., de Haan, R., Kolokolova, A., & Rich, P. (2024). <em>Reclaiming AI as a theoretical tool for cognitive science.</em> Computational Brain & Behavior, 7, 616–636.</li>
+    <li>Zao-Sanders, M. (2025). <em>The 2025 Top-100 Gen AI Use Case Report.</em> (Document en libre accès distribué sous licence Creative Commons Attribution).</li>
   </ul>
   <div style="font-size:0.93em; color:#8686a2; margin-top:12px;">
    </div>
@@ -503,14 +507,15 @@ const profils = [
   <strong>📝 Note :</strong>
   Ce résultat de profil est basé sur une analyse croisée des articles et ouvrages suivants&nbsp;:
   <ul style="margin-top:14px; margin-bottom:0; padding-left:20px;">
-    <li>Baudoin, J.-M. (2020). <em>L’IA dans l’entreprise : opportunités et vigilance</em>. Revue de Management, 38(2), 121-135.</li>
-    <li>Dupont, A., & Martin, F. (2023). <em>Travail collaboratif homme–IA : nouveaux enjeux de la responsabilité</em>. Les Éditions du Digital.</li>
-    <li>Gonzalez, P. (2021). <em>L’automatisation intelligente et ses effets sur la mémoire de travail</em>. Cahiers de la cognition, 14(3), 65-78.</li>
-    <li>Legrand, V., & Rousseau, T. (2022). <em>Pensée critique à l’ère des IA génératives</em>. In: D. Bonhomme (dir.), Savoirs numériques et société, p. 201-223.</li>
-    <li>Marchand, J. (2024). <em>Les biais cognitifs induits par l’usage d’outils IA</em>. Paris: CNRS Editions.</li>
-    <li>Rahmani, S. & Nguyen, T. (2022). <em>Usages et limites des assistants conversationnels IA en entreprise</em>. AI Review, 7(1), 43-59.</li>
-    <li>Smith, R. (2019). <em>Collaborating with Artificial Intelligence: Best Practices for Human-AI Teams</em>. Oxford University Press.</li>
-    <li>Vidal, C. (2020). <em>La mémoire à l’ère numérique</em>. Cognition & Technologies, 5(2), 54-70.</li>
+    <li>Dadeshkeliani, B. (2025). <em>The Psychology of Artificial Intelligence: Analyzing Cognitive and Emotional Characteristics, Human-Ai Interaction, and Ethical Considerations.</em> International Journal of Social Science and Human Research, 08(03), 1508–1514. DOI : 10.47191/ijsshr/v8-i3-23.</li>
+    <li>Jose, B., Cherian, J., Verghis, A. M., Varghise, S. M., S, M., & Joseph, S. (2025). <em>The cognitive paradox of AI in education: between enhancement and erosion.</em> Frontiers in Psychology, 16(1550621). DOI : 10.3389/fpsyg.2025.1550621.</li>
+    <li>Kosmyna, N., Hauptmann, E., Yuan, Y. T., Situ, J., Liao, X. H., Beresnitzky, A. V., Braunstein, I., & Maes, P. (2025). <em>Your Brain on ChatGPT: Accumulation of Cognitive Debt when Using an AI Assistant for Essay Writing Task.</em> (Document distribué sous licence CC BY-NC-SA).</li>
+    <li>Lee, H. P., Sarkar, A., Tankelevitch, L., Drosos, I., Rintel, S., Banks, R., & Wilson, N. (2025). <em>The Impact of Generative AI on Critical Thinking: Self-Reported Reductions in Cognitive Effort and Confidence Effects From a Survey of Knowledge Workers.</em> Dans CHI Conference on Human Factors in Computing Systems (CHI ’25) (p. 23 pages). ACM. DOI : 10.1145/3706598.3713778.</li>
+    <li>Naveenraj, X., Biswas, R., Choudhary, S., & Kumari, S. (2025). <em>AI and Social Interactions: How Artificial Intelligence is Shaping Human Psychology and Social Dynamics.</em> Journal of Informatics Education and Research, 5(2). ISSN: 1526-4726.</li>
+    <li>Sandford, A., Mulligan, B., Gittens, E., Norris, M., & Fernandes, M. (2024). <em>ARTIFICIAL INTELLIGENCE AND PSYCHOLOGY BRIEFING PAPER.</em> Canadian Psychological Association (CPA).</li>
+    <li>Szmyd, K., & Mitera, E. (2024). <em>The Impact of Artificial Intelligence on the Development of Critical Thinking Skills in Students.</em> European Research Studies Journal, XXVII(2), 1022–1039.</li>
+    <li>van Rooij, I., Guest, O., Adolfi, F., de Haan, R., Kolokolova, A., & Rich, P. (2024). <em>Reclaiming AI as a theoretical tool for cognitive science.</em> Computational Brain & Behavior, 7, 616–636.</li>
+    <li>Zao-Sanders, M. (2025). <em>The 2025 Top-100 Gen AI Use Case Report.</em> (Document en libre accès distribué sous licence Creative Commons Attribution).</li>
   </ul>
   <div style="font-size:0.93em; color:#8686a2; margin-top:12px;">
    </div>
